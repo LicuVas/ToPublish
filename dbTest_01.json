@@ -1,0 +1,303 @@
+{
+  "id": "container",
+  "text": "",
+  "children": [
+    {
+      "id": "root",
+      "text": "@HTML",
+      "children": [
+        {
+          "id": "1",
+          "text": "Examples",
+          "children": [
+            {
+              "id": "1-1",
+              "text": "https://www.w3schools.com/html/html_examples.asp",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "text": "Folding/unfolding texts using <details> and <summary>",
+          "children": [
+            {
+              "id": "1765485684074",
+              "text": "codepen.io example",
+              "children": [
+                {
+                  "id": "1765485722376",
+                  "text": "https://codepen.io/tejask/pen/vYYvPGW     \nhttps://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/details ",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "1765485719016",
+              "text": "Variant 01",
+              "children": [
+                {
+                  "id": "1765486088107",
+                  "text": "<details>\n  <summary>Future Career Options</summary>\n  <div>\n    <ul>\n      <li>Chief Trolling Officer</li>\n      <li>Hat Model</li>\n    </ul>\n  </div>\n</details>\n",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "1765486140712",
+              "text": "Variant 02",
+              "children": [
+                {
+                  "id": "1765486192384",
+                  "text": "<details>\n    <summary>Future Career Options</summary>\n    <details>\n        <summary>Life Story</summary>\n        <details>\n            <summary>Life Story</summary>\n            <div>Nothing special, I think you're pretty cool.</div>\n        </details>\n    </details>\n</details>\n",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1765485566799",
+          "text": "HTML Elements - defined by Tags",
+          "children": [
+            {
+              "id": "1765486231968",
+              "text": "What is an HTML Element",
+              "children": [
+                {
+                  "id": "1765486250107",
+                  "text": "<tagname>Content goes here...</tagname>\n<!-- The HTML element is everything from the start tag to the end tag -->\n",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "1765486239682",
+              "text": "Ways of defining HTML Elements",
+              "children": [
+                {
+                  "id": "1765486286293",
+                  "text": "by a start tag, some content, and an end tag",
+                  "children": [
+                    {
+                      "id": "1765486319708",
+                      "text": "<h1>My First Heading</h1>\n<p>My first paragraph.</p>\n",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "1765486288868",
+                  "text": "by skipping the end tag",
+                  "children": [
+                    {
+                      "id": "1765486343234",
+                      "text": "<body>\n<p>This is a paragraph\n<p>This is a paragraph\n</body>  \n",
+                      "children": []
+                    },
+                    {
+                      "id": "1765486351652",
+                      "text": "More",
+                      "children": [
+                        {
+                          "id": "1765486358382",
+                          "text": "Some HTML elements will display correctly, even if you forget the end tag:\nHowever, never rely on this! Unexpected results and errors may occur if you forget the end tag!\n",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "1765486290565",
+                  "text": "opening tag only for empty elements",
+                  "children": [
+                    {
+                      "id": "1765487581625",
+                      "text": "<p>This is a <br> paragraph with a line break.</p>",
+                      "children": [
+                        {
+                          "id": "1765487584875",
+                          "text": "More",
+                          "children": [
+                            {
+                              "id": "1765487608952",
+                              "text": "The <br> tag defines a line break, and is an empty element without a closing tag:",
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "1765486308307",
+                  "text": "Ending tag in the opening `<bento />`",
+                  "children": [
+                    {
+                      "id": "1765487708857",
+                      "text": "Ending tag in the opening `<bento />`",
+                      "children": [
+                        {
+                          "id": "1765487717970",
+                          "text": "<div class=\"table\">\n<bento />\n<plate />\n<bento />\n</div>\n",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "1765487741699",
+              "text": "HTML is Not Case Sensitive",
+              "children": [
+                {
+                  "id": "1765487754392",
+                  "text": "HTML tags are not case sensitive: <P> means the same as <p>.\nThe HTML standard does not require lowercase tags, but W3C recommends lowercase in HTML, and demands lowercase for stricter document types like XHTML.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "1765487798674",
+              "text": "List of HTML Elements",
+              "children": [
+                {
+                  "id": "1765487806641",
+                  "text": "List of HTML Tag Elements",
+                  "children": [
+                    {
+                      "id": "1765487835902",
+                      "text": "https://www.w3schools.com/tags/default.asp",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "1765487813361",
+                  "text": "comment",
+                  "children": [
+                    {
+                      "id": "1765487851354",
+                      "text": "Single line comment: \n<!-- This is a comment -->\n\n",
+                      "children": []
+                    },
+                    {
+                      "id": "1765488061842",
+                      "text": "Multiline comment \n<!--\n<p>Look at this cool image:</p>\n<img border=\"0\" src=\"pic_trulli.jpg\" alt=\"Trulli\">\n-->\n",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "1765487818730",
+                  "text": "paragraph examples",
+                  "children": [
+                    {
+                      "id": "1765487900255",
+                      "text": "<p>This is a paragraph made of just one sentence.</p>",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "1765487824172",
+                  "text": "division/section",
+                  "children": [
+                    {
+                      "id": "1765487907446",
+                      "text": "<div></div>",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1765488960809",
+      "text": "@JavaScript",
+      "children": [
+        {
+          "id": "1765488976474",
+          "text": "Overview",
+          "children": [
+            {
+              "id": "1765488985782",
+              "text": "This file contains quick reference and learning notes about core JavaScript topics.\nFormat: Indented plain text with Python-style folding in Notepad++.\nLast updated: 2025-07-29 08:08:47\n",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "1765488995888",
+          "text": "History of JavaScript",
+          "children": [
+            {
+              "id": "1765489010498",
+              "text": "JavaScript was invented by Brendan Eich in 1995, and became an ECMA standard in 1997.\nECMA-262 is the official name of the standard. ECMAScript is the official name of the language.\nECMAScript is just a specification. JavaScript is a programming language that conforms to this specification.\n(https://youtu.be/W6NZfCO5SIk?si=U477lUZZh6pC1QWY&t=160)\nECMA is an organization that is responsible for defining standards.\n",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "1765489025065",
+          "text": "JavaScript Programs",
+          "children": [
+            {
+              "id": "1765489031249",
+              "text": "What executes the code?",
+              "children": [
+                {
+                  "id": "1765489049722",
+                  "text": "In HTML, JavaScript programs are executed by the web browser.",
+                  "children": [
+                    {
+                      "id": "1765489067310",
+                      "text": "// This statement tells the browser to write \"Hello Dolly.\" inside an HTML element with id=\"demo\":\ndocument.getElementById(\"demo\").innerHTML = \"Hello Dolly.\";\n",
+                      "children": [
+                        {
+                          "id": "1765489090582",
+                          "text": "Internet browsers have an integrated JavaScript engine",
+                          "children": [
+                            {
+                              "id": "1765489099206",
+                              "text": "FireFox: SpiderMonkey\nChrome: v8\n",
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "1765489139777",
+                  "text": "Node.js",
+                  "children": [
+                    {
+                      "id": "1765489161671",
+                      "text": "In 2009 a very clever engineer Ryan Dahl took the open source Chrome JavaScript engine, `v8` and embedded it into a C++ program called `Node`. So Node is a c++ program that includes Google's JavaScript engine.\nTo execute JavaScript code in Node.js you use the cmd and change the directory to the folder containing the javascript file. To run the file, after you've installed Node.js on your machine, you write `node index.js`",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "1765489038001",
+              "text": "JS Syntax - code parsing - what to know when writing code",
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
