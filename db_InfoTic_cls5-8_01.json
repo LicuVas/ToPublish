@@ -1,0 +1,3554 @@
+{
+  "id": "container",
+  "text": "",
+  "children": [
+    {
+      "id": "root-v",
+      "text": "@Informatica si TIC Clasa a V-a",
+      "children": [
+        {
+          "id": "intro-v",
+          "text": "Introducere - Competente Generale",
+          "children": [
+            {
+              "id": "cg1-v",
+              "text": "1. Utilizarea responsabila si eficienta a tehnicii de calcul si de comunicatii",
+              "children": [
+                {
+                  "id": "cg1-desc-v",
+                  "text": "Aceasta competenta implica invatarea utilizarii corecte a echipamentelor, respectand normele de siguranta si ergonomie, precum si gestionarea eficienta a resurselor digitale pentru a evita riscurile asupra sanatatii si mediului inconjurator.",
+                  "children": []
+                },
+                {
+                  "id": "cg1-ex-v",
+                  "text": "Exemplu: Elevii invata sa stea corect la birou, sa faca pauze regulate si sa foloseasca mouse-ul ergonomic pentru a preveni oboseala.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "cg2-v",
+              "text": "2. Rezolvarea unor probleme elementare prin construirea unor algoritmi de prelucrare a informatiei",
+              "children": [
+                {
+                  "id": "cg2-desc-v",
+                  "text": "Se axeaza pe dezvoltarea gandirii logice prin descrierea si implementarea pasilor simpli pentru rezolvarea problemelor cotidiene sau matematice.",
+                  "children": []
+                },
+                {
+                  "id": "cg2-ex-v",
+                  "text": "Exemplu: Crearea unui algoritm pentru prepararea unui sandvis: 1. Ia painea; 2. Adauga unt; 3. Pune sunca; 4. Inchide sandvisul.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "cg3-v",
+              "text": "3. Elaborarea creativa de produse informatice care sa valorifice conexiunile dintre disciplina Informatica si TIC si societate",
+              "children": [
+                {
+                  "id": "cg3-desc-v",
+                  "text": "Implica crearea de continut digital relevant, cum ar fi imagini, animatii sau algoritmi simpli, care sa lege informatica de viata reala, promovand creativitatea si colaborarea.",
+                  "children": []
+                },
+                {
+                  "id": "cg3-ex-v",
+                  "text": "Exemplu: Realizarea unei felicitari digitale pentru Ziua Copilului, folosind un editor grafic, si distribuirea ei in clasa.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "resurse-v",
+              "text": "Resurse generale: Programa oficiala - https://www.ise.ro/wp-content/uploads/2017/01/informatica-si-TIC.pdf; Manual Intuitext - https://download.intuitext.ro/manuale/Intuitext_Manual_INF_cls_5.pdf",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "unit1-v",
+          "text": "Unitatea 1: Structura unui sistem de calcul",
+          "children": [
+            {
+              "id": "u1-1-v",
+              "text": "Normele de securitate si protectie a muncii in laboratorul de informatica",
+              "children": [
+                {
+                  "id": "u1-1-desc-v",
+                  "text": "Reguli esentiale pentru siguranta: Accesul in laborator doar cu profesorul prezent; Interzis consumul de alimente sau bauturi; Nu se demonteaza echipamente fara permisiune; Oprirea calculatoarelor la sfarsitul orei.",
+                  "children": []
+                },
+                {
+                  "id": "u1-1-ex-v",
+                  "text": "Exemplu: Daca un cablu este rupt, raporteaza profesorului, nu incerca sa-l repari singur.",
+                  "children": []
+                },
+                {
+                  "id": "u1-1-act-v",
+                  "text": "Activitate: Creeaza un poster cu 5 reguli de siguranta si prezinta-l clasei.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u1-2-v",
+              "text": "Notiuni de ergonomie",
+              "children": [
+                {
+                  "id": "u1-2-desc-v",
+                  "text": "Poziția corectă la calculator: Scaun reglabil la inaltime, picioare pe podea, ecran la nivelul ochilor, distanta 50-70 cm; Pauze la fiecare 20-30 minute; Clipeste frecvent pentru a evita uscaciunea ochilor.",
+                  "children": []
+                },
+                {
+                  "id": "u1-2-ex-v",
+                  "text": "Exemplu: In timpul unei ore de 45 minute, ridica-te la jumatate pentru 1 minut de intinderi.",
+                  "children": []
+                },
+                {
+                  "id": "u1-2-act-v",
+                  "text": "Activitate: Mimeaza pozitii incorecte vs. corecte si discuta efectele asupra sanatatii (dureri de spate, oboseala oculara).",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u1-3-v",
+              "text": "Sistemul de calcul - Istoric",
+              "children": [
+                {
+                  "id": "u1-3-desc-v",
+                  "text": "Evolutia: Abacul (4000 ani i.Hr.), Masina Jacquard (1801), Analytical Engine a lui Babbage (1837), Arhitectura von Neumann (1945) - baza calculatoarelor moderne.",
+                  "children": []
+                },
+                {
+                  "id": "u1-3-ex-v",
+                  "text": "Exemplu: De la abac la smartphone: Abacul numara manual, azi un telefon calculeaza miliarde de operatii pe secunda.",
+                  "children": []
+                },
+                {
+                  "id": "u1-3-act-v",
+                  "text": "Activitate: Deseneaza o linie temporală cu 3 inventii cheie si explica impactul lor asupra vietii zilnice.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u1-4-v",
+              "text": "Structura unui sistem de calcul",
+              "children": [
+                {
+                  "id": "u1-4-desc-v",
+                  "text": "Componente hardware: Placa de baza (conecteaza totul), UCP (procesor - creierul), Memorie RAM (temporara), Memorie ROM (permanenta), Dispozitive de stocare (HDD/SSD).",
+                  "children": []
+                },
+                {
+                  "id": "u1-4-ex-v",
+                  "text": "Exemplu: Cand deschizi un joc, RAM-ul il incarca rapid; fara ea, jocul ar merge lent.",
+                  "children": []
+                },
+                {
+                  "id": "u1-4-act-v",
+                  "text": "Activitate: Deseneaza schema unui calculator si eticheteaza componentele cu rolurile lor.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u1-5-v",
+              "text": "Structura interna a unui procesor",
+              "children": [
+                {
+                  "id": "u1-5-desc-v",
+                  "text": "UCP: Unitatea aritmetico-logica (UAL - calcule), Unitatea de control (UCC - comenzi), Registre (memorie rapida), Cache (stocare temporara).",
+                  "children": []
+                },
+                {
+                  "id": "u1-5-ex-v",
+                  "text": "Exemplu: UAL aduna 2+2=4; UCC spune 'afiseaza rezultatul pe ecran'.",
+                  "children": []
+                },
+                {
+                  "id": "u1-5-act-v",
+                  "text": "Activitate: Simuleaza cu cartonas un calcul simplu: scrie numerele, aduna, afiseaza.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u1-6-v",
+              "text": "Dispozitive de intrare",
+              "children": [
+                {
+                  "id": "u1-6-desc-v",
+                  "text": "Tastatura (taste alfanumerice, functionale), Mouse (clicuri, scroll), Microfon (sunet), Scanner (imagini), Webcam (video).",
+                  "children": []
+                },
+                {
+                  "id": "u1-6-ex-v",
+                  "text": "Exemplu: Tastatura introduce text; mouse-ul selecteaza iconuri.",
+                  "children": []
+                },
+                {
+                  "id": "u1-6-act-v",
+                  "text": "Activitate: Listeaza 3 dispozitive de intrare din casa ta si explica cum le folosesti zilnic.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u1-7-v",
+              "text": "Dispozitive de iesire",
+              "children": [
+                {
+                  "id": "u1-7-desc-v",
+                  "text": "Monitor (afiseaza imagine), Boxe (sunet), Imprimanta (hartie - jet cerneală, laser).",
+                  "children": []
+                },
+                {
+                  "id": "u1-7-ex-v",
+                  "text": "Exemplu: Monitorul arata rezultatul unui calcul; imprimanta printeaza un desen.",
+                  "children": []
+                },
+                {
+                  "id": "u1-7-act-v",
+                  "text": "Activitate: Compara costurile a 2 imprimante (500 pagini/luna) si decide care e mai ieftina pe termen lung.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u1-8-v",
+              "text": "Dispozitive de intrare-iesire",
+              "children": [
+                {
+                  "id": "u1-8-desc-v",
+                  "text": "Ecran tactil (touch), Modem (conectare internet), Placa de retea.",
+                  "children": []
+                },
+                {
+                  "id": "u1-8-ex-v",
+                  "text": "Exemplu: Ecranul tactil primeste comenzi (touch) si afiseaza (iesire).",
+                  "children": []
+                },
+                {
+                  "id": "u1-8-act-v",
+                  "text": "Activitate: Descrie un dispozitiv hibrid din viata ta (ex: telefonul).",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u1-9-v",
+              "text": "Descrierea componentei software",
+              "children": [
+                {
+                  "id": "u1-9-desc-v",
+                  "text": "Sisteme de operare: Windows, Linux - gestioneaza hardware; Aplicatii: Browsere, editoare de text.",
+                  "children": []
+                },
+                {
+                  "id": "u1-9-ex-v",
+                  "text": "Exemplu: Windows deschide ferestre cand faci dublu-clic pe un fisier.",
+                  "children": []
+                },
+                {
+                  "id": "u1-9-act-v",
+                  "text": "Activitate: Listeaza 3 aplicatii instalate pe calculatorul tau si rolul lor.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u1-10-v",
+              "text": "Organizarea informatiei pe suport extern",
+              "children": [
+                {
+                  "id": "u1-10-desc-v",
+                  "text": "Directoare ierarhice (foldere in foldere), Operatii: Creeaza, sterge, copiaza, muta, cauta (File Explorer).",
+                  "children": []
+                },
+                {
+                  "id": "u1-10-ex-v",
+                  "text": "Exemplu: Creeaza folder 'Scoală' cu subfoldere 'Matematica', 'Informatica'; Salveaza un PDF in 'Matematica'.",
+                  "children": []
+                },
+                {
+                  "id": "u1-10-act-v",
+                  "text": "Activitate: Creeaza ierarhia: Portofoliu > Desen > Salveaza imagine cu Ion Creanga; Copiaza in Imagini.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u1-11-v",
+              "text": "Salvarea fisierelor",
+              "children": [
+                {
+                  "id": "u1-11-desc-v",
+                  "text": "Extensii: .jpg (imagini), .doc (text); Calea absoluta (C:\\Users\\Nume\\Documente) vs. relativa (Documente\\Fisier).",
+                  "children": []
+                },
+                {
+                  "id": "u1-11-ex-v",
+                  "text": "Exemplu: Salveaza desenul ca 'DesenulMeu.jpg' in folderul 'Desene'.",
+                  "children": []
+                },
+                {
+                  "id": "u1-11-act-v",
+                  "text": "Activitate: Salveaza o captura de ecran si redenumeste-o cu data curenta.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u1-rec-v",
+              "text": "Recapitulare Unitate 1",
+              "children": [
+                {
+                  "id": "u1-rec-q-v",
+                  "text": "Intrebari: Ce este RAM? (Memorie temporara). Care e pozitia corecta la birou?",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u1-eval-v",
+              "text": "Evaluare Unitate 1",
+              "children": [
+                {
+                  "id": "u1-eval-ex-v",
+                  "text": "Exercitiu: Identifica 3 dispozitive de intrare si explica rolul lor.",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "unit2-v",
+          "text": "Unitatea 2: Internetul",
+          "children": [
+            {
+              "id": "u2-1-v",
+              "text": "Ce este Internetul? Serviciile oferite si accesul",
+              "children": [
+                {
+                  "id": "u2-1-desc-v",
+                  "text": "Rețea globala de calculatoare; Servicii: WWW (web), Email, Mesagerie; Acces: Prin ISP (RCS, Digi), Wi-Fi, cablu.",
+                  "children": []
+                },
+                {
+                  "id": "u2-1-ex-v",
+                  "text": "Exemplu: Internetul conecteaza telefonul tau la un server YouTube pentru a vedea un video.",
+                  "children": []
+                },
+                {
+                  "id": "u2-1-act-v",
+                  "text": "Activitate: Deseneaza o retea simpla: Casa - Router - Internet.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u2-2-v",
+              "text": "Serviciul World Wide Web",
+              "children": [
+                {
+                  "id": "u2-2-desc-v",
+                  "text": "Pagini web accesate cu browsere (Chrome, Firefox); URL: http://www.exemplu.ro/pagina; Domenii: .ro (Romania), .com (comercial).",
+                  "children": []
+                },
+                {
+                  "id": "u2-2-ex-v",
+                  "text": "Exemplu: In URL 'https://www.google.com/search?q=romania', 'https' e securizat, 'google.com' e domeniu.",
+                  "children": []
+                },
+                {
+                  "id": "u2-2-act-v",
+                  "text": "Activitate: Navigheaza la un site educational si salveaza o pagina ca bookmark.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u2-3-v",
+              "text": "Cautarea informatiei pe Internet",
+              "children": [
+                {
+                  "id": "u2-3-desc-v",
+                  "text": "Motoare: Google, Bing; Operatori: 'cuvinte exacte', site:edu.ro, filetype:pdf; Filtre: Imagini, Stiri.",
+                  "children": []
+                },
+                {
+                  "id": "u2-3-ex-v",
+                  "text": "Exemplu: Cauta 'siguranta pe internet filetype:pdf site:edu.ro' pentru documente oficiale.",
+                  "children": []
+                },
+                {
+                  "id": "u2-3-act-v",
+                  "text": "Activitate: Cauta 3 fapte despre orasul tau si salveaza imaginile.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u2-4-v",
+              "text": "Despre drepturile de autor si elemente de securitate",
+              "children": [
+                {
+                  "id": "u2-4-desc-v",
+                  "text": "Drepturi: Nu copia continut protejat fara permisiune; Freeware (gratuit), Shareware (trial); Securitate: Parole puternice (8+ caractere, litere mari/mici, cifre, simboluri), Nu da date personale.",
+                  "children": []
+                },
+                {
+                  "id": "u2-4-ex-v",
+                  "text": "Exemplu: Descarcă o imagine free de pe Pixabay; Parola 'Parola123' e slaba, 'M@iMare2025!' e buna.",
+                  "children": []
+                },
+                {
+                  "id": "u2-4-act-v",
+                  "text": "Activitate: Creeaza o parola sigura si explica de ce e mai buna decat '123456'.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u2-5-v",
+              "text": "Corectitudinea informatiei si dependenta de Internet",
+              "children": [
+                {
+                  "id": "u2-5-desc-v",
+                  "text": "Verifica sursa (autor, data); Fake news: Compara 2 site-uri; Dependența: Limiteaza la 1 ora/zi, alterna cu sport.",
+                  "children": []
+                },
+                {
+                  "id": "u2-5-ex-v",
+                  "text": "Exemplu: O stire 'Ploaie de ciocolata' - verifica pe site oficial, nu e reala.",
+                  "children": []
+                },
+                {
+                  "id": "u2-5-act-v",
+                  "text": "Activitate: Chestionar in clasa: Cat timp petreci online zilnic? Discuta riscurile.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u2-rec-v",
+              "text": "Recapitulare Unitate 2",
+              "children": [
+                {
+                  "id": "u2-rec-q-v",
+                  "text": "Intrebari: Ce e un URL? (Adresa web). Cum faci o parola sigura?",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u2-eval-v",
+              "text": "Evaluare Unitate 2",
+              "children": [
+                {
+                  "id": "u2-eval-ex-v",
+                  "text": "Exercitiu: Cauta o imagine sigura si explica de ce o poti folosi liber.",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "unit3-v",
+          "text": "Unitatea 3: Editoare grafice",
+          "children": [
+            {
+              "id": "u3-1-v",
+              "text": "Rolul unui editor grafic si elemente de interfata",
+              "children": [
+                {
+                  "id": "u3-1-desc-v",
+                  "text": "Editoare: Paint (simplu), GIMP (avansat); Interfata: Meniu (Fisier, Editare), Bara unelte (pensula, forme), Paleta culori.",
+                  "children": []
+                },
+                {
+                  "id": "u3-1-ex-v",
+                  "text": "Exemplu: In Paint, selecteaza 'Pensula' pentru a desena linii libere.",
+                  "children": []
+                },
+                {
+                  "id": "u3-1-act-v",
+                  "text": "Activitate: Deschide Paint si identifica 5 unelte; Descrie functia lor.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u3-2-v",
+              "text": "Crearea, deschiderea si salvarea fisierelor grafice",
+              "children": [
+                {
+                  "id": "u3-2-desc-v",
+                  "text": "New (creaza gol), Open (deschide existent), Save As (.jpg compact, .bmp mare); Selectie, Copiaza, Mutare, Sterge.",
+                  "children": []
+                },
+                {
+                  "id": "u3-2-ex-v",
+                  "text": "Exemplu: Copiaza capul unui animal si lipeste-l pe alt corp pentru un colaj amuzant.",
+                  "children": []
+                },
+                {
+                  "id": "u3-2-act-v",
+                  "text": "Activitate: Creeaza un colaj cu 3 imagini descarcate si salveaza ca .jpg.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u3-3-v",
+              "text": "Panoramarea unei imagini",
+              "children": [
+                {
+                  "id": "u3-3-desc-v",
+                  "text": "Imbina 2 imagini cu suprapunere comuna; Redimensioneaza canvas, copiaza, aliniaza.",
+                  "children": []
+                },
+                {
+                  "id": "u3-3-ex-v",
+                  "text": "Exemplu: Doua poze dintr-o excursie - suprapune copacul comun pentru o panorama continua.",
+                  "children": []
+                },
+                {
+                  "id": "u3-3-act-v",
+                  "text": "Activitate: Creeaza o panorama din 2 poze de pe telefon si adauga text descriptiv.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u3-4-v",
+              "text": "Instrumente de desenare",
+              "children": [
+                {
+                  "id": "u3-4-desc-v",
+                  "text": "Pensula (linii libere), Forme (cerc, patrat - tii Shift pentru perfect), Grosime linie, Umplere (balon).",
+                  "children": []
+                },
+                {
+                  "id": "u3-4-ex-v",
+                  "text": "Exemplu: Deseneaza un steag Romanesc: dreptunghi albastru, galben, rosu cu forme umplute.",
+                  "children": []
+                },
+                {
+                  "id": "u3-4-act-v",
+                  "text": "Activitate: Deseneaza 3 forme geometrice si umple-le cu culori RGB personalizate (ex: Rosu=255, Verde=0, Albastru=0).",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u3-5-v",
+              "text": "Inserarea si formatarea textului",
+              "children": [
+                {
+                  "id": "u3-5-desc-v",
+                  "text": "Adauga text, formatare: Bold, Italic, Underscore, Font, Marime; Culori text.",
+                  "children": []
+                },
+                {
+                  "id": "u3-5-ex-v",
+                  "text": "Exemplu: In imaginea ta, adauga 'Felicitare!' in bold rosu.",
+                  "children": []
+                },
+                {
+                  "id": "u3-5-act-v",
+                  "text": "Activitate: Creeaza o diploma cu numele tau, adauga text formatat si o imagine.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u3-rec-v",
+              "text": "Recapitulare Unitate 3",
+              "children": [
+                {
+                  "id": "u3-rec-q-v",
+                  "text": "Intrebari: Ce e RGB? (Model culori: Rosu, Verde, Albastru). Cum salvezi un fisier mic?",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u3-eval-v",
+              "text": "Evaluare Unitate 3",
+              "children": [
+                {
+                  "id": "u3-eval-ex-v",
+                  "text": "Exercitiu: Realizeaza un logo pentru clasa ta cu text si forme.",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "unit4-v",
+          "text": "Unitatea 4: Algoritmi",
+          "children": [
+            {
+              "id": "u4-1-v",
+              "text": "Ce este un algoritm?",
+              "children": [
+                {
+                  "id": "u4-1-desc-v",
+                  "text": "Succesiune finita de pasi logici pentru rezolvarea unei probleme; Componente: Date intrare, Operatii, Date iesire.",
+                  "children": []
+                },
+                {
+                  "id": "u4-1-ex-v",
+                  "text": "Exemplu: Algoritm spalare maini: 1. Umezi; 2. Sapun; 3. Freaca 20 sec; 4. Clateste; 5. Usuca.",
+                  "children": []
+                },
+                {
+                  "id": "u4-1-act-v",
+                  "text": "Activitate: Descrie in 5 pasi cum iti legi sireturile pantofilor.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u4-2-v",
+              "text": "Proprietatile algoritmilor",
+              "children": [
+                {
+                  "id": "u4-2-desc-v",
+                  "text": "Finite (se termina), Determinate (pasi clari), Generale (pentru toate cazurile similare).",
+                  "children": []
+                },
+                {
+                  "id": "u4-2-ex-v",
+                  "text": "Exemplu: Reteta clatite: Finita (10 pasi), nu 'adauga sare daca vrei' (nedeterminat).",
+                  "children": []
+                },
+                {
+                  "id": "u4-2-act-v",
+                  "text": "Activitate: Analizeaza o reteta si identifica proprietatile; Corecteaza una neclara.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u4-3-v",
+              "text": "Clasificarea datelor cu care lucreaza algoritmii",
+              "children": [
+                {
+                  "id": "u4-3-desc-v",
+                  "text": "Intrare (date initiale), Iesire (rezultate), Manevra (intermediare); Constante (f ix), Variabile (se schimba).",
+                  "children": []
+                },
+                {
+                  "id": "u4-3-ex-v",
+                  "text": "Exemplu: Calcul suprafata patrat: Intrare: latura a; Manevra: a*a; Iesire: suprafata.",
+                  "children": []
+                },
+                {
+                  "id": "u4-3-act-v",
+                  "text": "Activitate: Clasifica datele intr-un algoritm de cumparaturi: pret (variabila), TVA 19% (constanta).",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u4-4-v",
+              "text": "Expresii aritmetice",
+              "children": [
+                {
+                  "id": "u4-4-desc-v",
+                  "text": "Operatori: +,-,*,/,% (rest); Prioritate: Paranteze, * / %, + -.",
+                  "children": []
+                },
+                {
+                  "id": "u4-4-ex-v",
+                  "text": "Exemplu: (2+3)*4 = 20; 10%3 =1 (rest).",
+                  "children": []
+                },
+                {
+                  "id": "u4-4-act-v",
+                  "text": "Activitate: Calculeaza 123/10 % 10 + 123/100 = 3.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u4-5-v",
+              "text": "Expresii logice si operatori relationali",
+              "children": [
+                {
+                  "id": "u4-5-desc-v",
+                  "text": "Logici: SI (and), SAU (or), NU (not); Relationali: >, <, =, >=, <=, !=; Tabele adevar.",
+                  "children": []
+                },
+                {
+                  "id": "u4-5-ex-v",
+                  "text": "Exemplu: (x>5) SI (y<10) = adevarat daca x=6, y=8.",
+                  "children": []
+                },
+                {
+                  "id": "u4-5-act-v",
+                  "text": "Activitate: Completeaza tabel adevar pentru A SAU B.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u4-rec-v",
+              "text": "Recapitulare Unitate 4",
+              "children": [
+                {
+                  "id": "u4-rec-q-v",
+                  "text": "Intrebari: Ce proprietate lipseste 'daca ploua, stai acasa sau mergi la film'? (Claritate).",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u4-eval-v",
+              "text": "Evaluare Unitate 4",
+              "children": [
+                {
+                  "id": "u4-eval-ex-v",
+                  "text": "Exercitiu: Scrie expresie pentru 'x e par': x % 2 = 0.",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "unit5-v",
+          "text": "Unitatea 5: Structura secventiala si alternativa",
+          "children": [
+            {
+              "id": "u5-1-v",
+              "text": "Structura liniara (secventiala)",
+              "children": [
+                {
+                  "id": "u5-1-desc-v",
+                  "text": "Secventa de pasi executati in ordine; Reprezentare: Numere, blocuri grafice.",
+                  "children": []
+                },
+                {
+                  "id": "u5-1-ex-v",
+                  "text": "Exemplu: Suma a+b+c: Citeste a,b,c; p=a+b+c; Afiseaza p.",
+                  "children": []
+                },
+                {
+                  "id": "u5-1-act-v",
+                  "text": "Activitate: Scrie algoritm secvential pentru convertire metri in cm (cm = m * 100).",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u5-2-v",
+              "text": "Prezentarea mediului grafic interactiv",
+              "children": [
+                {
+                  "id": "u5-2-desc-v",
+                  "text": "Medii: Scratch (sprites, scripturi), Blockly (blocuri logice); Interfata: Scena, Personaje, Blocuri (miscare, sunet, control).",
+                  "children": []
+                },
+                {
+                  "id": "u5-2-ex-v",
+                  "text": "Exemplu: In Scratch, trage 'move 10 steps' de 4 ori pentru un patrat.",
+                  "children": []
+                },
+                {
+                  "id": "u5-2-act-v",
+                  "text": "Activitate: Creeaza cont Scratch si exploreaza interfata; Anima un motan care spune 'Salut!' la clic.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u5-3-v",
+              "text": "Structura alternativa (decizionala)",
+              "children": [
+                {
+                  "id": "u5-3-desc-v",
+                  "text": "Daca conditie atunci {pasi1} altfel {pasi2}; Pentru decizii.",
+                  "children": []
+                },
+                {
+                  "id": "u5-3-ex-v",
+                  "text": "Exemplu: Max(x,y): Daca x>y atunci afiseaza x altfel y.",
+                  "children": []
+                },
+                {
+                  "id": "u5-3-act-v",
+                  "text": "Activitate: In Blockly, implementeaza 'daca nota>=5 atunci promoveaza altfel repeta'.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u5-4-v",
+              "text": "Implementarea algoritmilor in mediu grafic",
+              "children": [
+                {
+                  "id": "u5-4-desc-v",
+                  "text": "Foloseste blocuri pentru secventa si alternativa; Adauga miscare, sunete, dialoguri.",
+                  "children": []
+                },
+                {
+                  "id": "u5-4-ex-v",
+                  "text": "Exemplu: In Scratch, motan merge 10 pasi daca verde, intoarce daca rosu.",
+                  "children": []
+                },
+                {
+                  "id": "u5-4-act-v",
+                  "text": "Activitate: Creeaza o sceneta cu 2 personaje: Unul intreaba, altul raspunde cu alternativa.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u5-rec-v",
+              "text": "Recapitulare Unitate 5",
+              "children": [
+                {
+                  "id": "u5-rec-q-v",
+                  "text": "Intrebari: Ce bloc folosesti pentru miscare in Scratch? (Move steps).",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u5-eval-v",
+              "text": "Evaluare Unitate 5",
+              "children": [
+                {
+                  "id": "u5-eval-ex-v",
+                  "text": "Exercitiu: Implementeaza in Scratch suma a 2 numere cu alternativa pentru numar mai mare.",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "unit6-v",
+          "text": "Unitatea 6: Proiecte, recapitulare si evaluare finala",
+          "children": [
+            {
+              "id": "u6-1-v",
+              "text": "Proiecte creative",
+              "children": [
+                {
+                  "id": "u6-1-desc-v",
+                  "text": "Integreaza unitatile: Creeaza un joc simplu in Scratch cu hardware explicat, internet sigur si algoritmi.",
+                  "children": []
+                },
+                {
+                  "id": "u6-1-ex-v",
+                  "text": "Exemplu: Joc 'Evita pericolele online': Personaj evita link-uri false cu structura alternativa.",
+                  "children": []
+                },
+                {
+                  "id": "u6-1-act-v",
+                  "text": "Activitate: In echipe, creeaza un afis digital despre siguranta pe net cu editor grafic.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u6-2-v",
+              "text": "Recapitulare generala",
+              "children": [
+                {
+                  "id": "u6-2-q-v",
+                  "text": "Intrebari cheie: Ce e un algoritm? (Secventa pasi). Cum eviti dependenta de net? (Limite timp).",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u6-3-v",
+              "text": "Evaluare finala",
+              "children": [
+                {
+                  "id": "u6-3-ex-v",
+                  "text": "Test: 10 intrebari mixte + proiect Scratch (20 puncte).",
+                  "children": []
+                },
+                {
+                  "id": "u6-3-port-v",
+                  "text": "Portofoliu: Colectie de 5 lucrari (desen, algoritm, animatie) cu autoevaluare.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "resurse-fin-v",
+              "text": "Resurse aditionale: Scratch.mit.edu; Code.org; Pixabay.com pentru imagini free.",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-vi",
+      "text": "@Informatica si TIC Clasa a VI-a",
+      "children": [
+        {
+          "id": "intro-vi",
+          "text": "Introducere - Competente Generale",
+          "children": [
+            {
+              "id": "cg1-vi",
+              "text": "1. Utilizarea responsabila si eficienta a tehnicii de calcul si de comunicatii",
+              "children": [
+                {
+                  "id": "cg1-desc-vi",
+                  "text": "Aceasta competenta implica utilizarea corecta a echipamentelor digitale, respectand normele de siguranta, ergonomie si protectie a datelor, precum si aplicarea eticii in comunicarea online pentru a promova un mediu sigur si productiv.",
+                  "children": []
+                },
+                {
+                  "id": "cg1-ex-vi",
+                  "text": "Exemplu: Elevii invata sa configureze un cont de e-mail sigur, folosind parole complexe si verificand sursele inainte de a deschide atasamente, evitand astfel riscurile de phishing.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "cg2-vi",
+              "text": "2. Rezolvarea unor probleme elementare prin construirea unor algoritmi de prelucrare a informatiei",
+              "children": [
+                {
+                  "id": "cg2-desc-vi",
+                  "text": "Se axeaza pe dezvoltarea gandirii computationale prin identificarea problemelor, proiectarea algoritmilor cu structuri repetitive si implementarea lor in medii grafice, urmand etapele de testare si depanare.",
+                  "children": []
+                },
+                {
+                  "id": "cg2-ex-vi",
+                  "text": "Exemplu: Crearea unui algoritm in Scratch pentru a genera un pattern repetitiv, cum ar fi un labirint simplu, unde un personaj se misca in bucla pana la atingerea unui obiect tinta.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "cg3-vi",
+              "text": "3. Elaborarea creativa de produse informatice care sa valorifice conexiunile dintre disciplina Informatica si TIC si societate",
+              "children": [
+                {
+                  "id": "cg3-desc-vi",
+                  "text": "Implica crearea de continut multimedia relevant, cum ar fi prezentari interactive sau animatii educationale, care sa lege informatica de alte discipline si sa promoveze valori sociale precum protectia mediului sau educatia civica.",
+                  "children": []
+                },
+                {
+                  "id": "cg3-ex-vi",
+                  "text": "Exemplu: Realizarea unei animatii 3D in Tinkercad care ilustreaza ciclul apei, integrata intr-o prezentare PowerPoint pentru o lectie de stiinte ale naturii, cu elemente interactive pentru implicarea colegilor.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "resurse-vi",
+              "text": "Resurse generale: Programa oficiala - https://www.ise.ro/wp-content/uploads/2017/01/informatica-si-TIC.pdf; Manual Corint - https://www.manuale.edituracorint.ro/2023/informatica_VI.pdf.pdf; Manual Intuitext - https://manuale.edu.ro/manuale/Clasa a VI-a/Informatica si TIC",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "unit1-vi",
+          "text": "Unitatea 1: Internet",
+          "children": [
+            {
+              "id": "u1-1-vi",
+              "text": "Prezentare generala a Internetului si a serviciilor oferite",
+              "children": [
+                {
+                  "id": "u1-1-desc-vi",
+                  "text": "Internetul este o retea globala de calculatoare care ofera servicii precum World Wide Web, e-mail si mesagerie instant. Se discuta accesul prin ISP-uri si masurile de siguranta de baza pentru navigare.\n\nExemplu: Utilizarea unui browser precum Chrome pentru a accesa site-uri educationale sigure, evitand link-uri suspecte.",
+                  "children": []
+                },
+                {
+                  "id": "u1-1-ex-vi",
+                  "text": "Exemplu: Cautarea pe Google a 'monumente istorice din Romania' si salvarea rezultatelor intr-un document Word pentru un proiect de istorie.",
+                  "children": []
+                },
+                {
+                  "id": "u1-1-act-vi",
+                  "text": "Activitate: Creeaza un cont gratuit pe un site educational (ex: Khan Academy) si exploreaza o lectie interactiva despre istorie, notand 3 fapte noi invatate.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u1-2-vi",
+              "text": "Pasta electronica (e-mail)",
+              "children": [
+                {
+                  "id": "u1-2-desc-vi",
+                  "text": "E-mail-ul permite comunicarea asincrona prin mesaje text cu atasamente. Se invata crearea conturilor (ex: Gmail, Outlook) si structura unui mesaj: antet (de la, catre, subiect), corp si semnatura.\n\nExemplu: Adresa e-mail: nume@provider.com; Parole: minim 8 caractere, cu litere mari/mici, cifre si simboluri.",
+                  "children": []
+                },
+                {
+                  "id": "u1-2-ex-vi",
+                  "text": "Exemplu: Compunerea unui e-mail de invitat la o petrecere: Subiect 'Invitatie la zi de nastere', Corp cu data, ora si loc, atasament cu o imagine festiva.",
+                  "children": []
+                },
+                {
+                  "id": "u1-2-act-vi",
+                  "text": "Activitate: Creeaza un cont e-mail educational si trimite un mesaj catre profesor cu o prezentare scurta a ta, incluzand o fotografie de profil sigura.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u1-3-vi",
+              "text": "Operatii specifice cu mesaje electronice",
+              "children": [
+                {
+                  "id": "u1-3-desc-vi",
+                  "text": "Operatii: Citire, raspuns (Reply), redirecionare (Forward), stergere, arhivare. Se aplica neticheta: saluturi politice, limbaj corect, evitarea spam-ului.\n\nExemplu: Folosirea butonului 'Reply All' doar cand este necesar, pentru a nu deranja grupul.",
+                  "children": []
+                },
+                {
+                  "id": "u1-3-ex-vi",
+                  "text": "Exemplu: Redirecionarea unui mesaj cu o reteta de gatit catre un coleg, adaugand un comentariu personal in corpul mesajului.",
+                  "children": []
+                },
+                {
+                  "id": "u1-3-act-vi",
+                  "text": "Activitate: Primeste un e-mail de la profesor, raspunde cu o intrebare si redirecioneaza catre un coleg pentru discutie in grup.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u1-4-vi",
+              "text": "Dosare cu mesaje, agenda de utilizatori",
+              "children": [
+                {
+                  "id": "u1-4-desc-vi",
+                  "text": "Organizarea mesajelor in dosare (Inbox, Sent, Drafts, Spam) si adaugarea contactelor in agenda. Se discuta etichetarea si cautarea mesajelor.\n\nExemplu: Mutarea mesajelor de marketing in dosarul Spam pentru a mentine Inbox-ul curat.",
+                  "children": []
+                },
+                {
+                  "id": "u1-4-ex-vi",
+                  "text": "Exemplu: Adaugarea profesorului in agenda cu notite: 'Prof. Matematica - raspunsuri rapide pentru teme'.",
+                  "children": []
+                },
+                {
+                  "id": "u1-4-act-vi",
+                  "text": "Activitate: Creeaza dosare tematice (Scoală, Familie, Hobby) si muta 5 mesaje recente in ele, actualizand agenda cu 3 contacte noi.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u1-5-vi",
+              "text": "Protecția datelor personale în comunicarea pe Internet",
+              "children": [
+                {
+                  "id": "u1-5-desc-vi",
+                  "text": "Reguli: Nu partaja date sensibile (adresa, numar telefon), foloseste autentificare in doi pasi, verifica URL-urile (https://). Se discuta GDPR si drepturile utilizatorilor.\n\nExemplu: Refuzul furnizarii datelor in chestionare online nesigure.",
+                  "children": []
+                },
+                {
+                  "id": "u1-5-ex-vi",
+                  "text": "Exemplu: Crearea unei liste cu date personale sigure de partajat (nume, varsta) vs. nesigure (parola, adresa exacta).",
+                  "children": []
+                },
+                {
+                  "id": "u1-5-act-vi",
+                  "text": "Activitate: Discuta in grup un scenariu de phishing si creeaza un poster digital cu 5 reguli de protectie a datelor.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u1-6-vi",
+              "text": "Reguli de comunicare în mediul online (etichetă)",
+              "children": [
+                {
+                  "id": "u1-6-desc-vi",
+                  "text": "Netiquette: Foloseste majuscule doar pentru titluri (nu urla), raspunde prompt, fii respectuos. Se aplica in forumuri si chat-uri scolare.\n\nExemplu: Incepe un e-mail cu 'Stimate Domnule Profesor,' si termina cu 'Cu respect, Numele tau'.",
+                  "children": []
+                },
+                {
+                  "id": "u1-6-ex-vi",
+                  "text": "Exemplu: Corectarea unui mesaj nepoliticos: Schimba 'Esti prost!' in 'Nu sunt de acord cu ideea ta, poti explica mai mult?'.",
+                  "children": []
+                },
+                {
+                  "id": "u1-6-act-vi",
+                  "text": "Activitate: Scrie un e-mail de feedback pentru un coleg, aplicand reguli de neticheta, si evalueaza-l reciproc.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u1-7-vi",
+              "text": "Măsuri de siguranță în utilizarea Internetului",
+              "children": [
+                {
+                  "id": "u1-7-desc-vi",
+                  "text": "Instalare antivirus, actualizari software, parinti ca supervizori, raportarea continutului inadecvat. Se discuta riscuri: cyberbullying, malware.\n\nExemplu: Folosirea modului incognito pentru cautari private si blocarea site-urilor periculoase in setari parentale.",
+                  "children": []
+                },
+                {
+                  "id": "u1-7-ex-vi",
+                  "text": "Exemplu: Simularea unui atac de malware: Deschide un fisier dubios si discuta consecintele (pierderea datelor).",
+                  "children": []
+                },
+                {
+                  "id": "u1-7-act-vi",
+                  "text": "Activitate: Instaleaza o extensie de securitate in browser (ex: uBlock Origin) si testeaza navigarea pe un site cu reclame.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u1-rec-vi",
+              "text": "Recapitulare Unitate 1",
+              "children": [
+                {
+                  "id": "u1-rec-q-vi",
+                  "text": "Intrebari: Ce este neticheta? (Reguli de comunicare online politicoasa). Cum protejezi datele personale? (Parola puternica, nu partaja info sensibile).",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u1-eval-vi",
+              "text": "Evaluare Unitate 1",
+              "children": [
+                {
+                  "id": "u1-eval-ex-vi",
+                  "text": "Exercitiu: Compune un e-mail sigur cu atasament si organizeaza-l in dosare, explicand masurile de securitate aplicate.",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "unit2-vi",
+          "text": "Unitatea 2: Prezentări",
+          "children": [
+            {
+              "id": "u2-1-vi",
+              "text": "Prezentare generala a unei aplicatii de prezentari",
+              "children": [
+                {
+                  "id": "u2-1-desc-vi",
+                  "text": "Aplicații: PowerPoint, Google Slides, LibreOffice Impress. Interfata: Bara de meniuri (Fisier, Inserare), Panou slide-uri, Zona de lucru.\n\nExemplu: Deschide PowerPoint si exploreaza butoanele de baza pentru a crea o prezentare noua.",
+                  "children": []
+                },
+                {
+                  "id": "u2-1-ex-vi",
+                  "text": "Exemplu: Analiza unei prezentari model despre 'Planetele sistemului solar', identificand diapozitivele si tranzitiile.",
+                  "children": []
+                },
+                {
+                  "id": "u2-1-act-vi",
+                  "text": "Activitate: Deschide o aplicatie de prezentari si identifica 5 elemente de interfață, notandu-le intr-un caiet.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u2-2-vi",
+              "text": "Primii pasi in realizarea unei prezentari",
+              "children": [
+                {
+                  "id": "u2-2-desc-vi",
+                  "text": "Operatii: Creare noua prezentare, Deschidere, Salvare (ca .pptx), Inchiderea. Structura: Titlu, Continut, Concluzie.\n\nExemplu: Salveaza o prezentare in folderul 'Proiecte Scoală' cu numele 'Prezentarea Mea - Data'.",
+                  "children": []
+                },
+                {
+                  "id": "u2-2-ex-vi",
+                  "text": "Exemplu: Creeaza o prezentare cu 3 slide-uri: Acasa (titlu), Despre mine (text), Hobby-uri (imagini).",
+                  "children": []
+                },
+                {
+                  "id": "u2-2-act-vi",
+                  "text": "Activitate: Creeaza o prezentare simpla cu 4 diapozitive despre o vacanta, salvand-o in format compatibil.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u2-3-vi",
+              "text": "Lucrul cu diapozitive",
+              "children": [
+                {
+                  "id": "u2-3-desc-vi",
+                  "text": "Editare: Inserare nou slide, Duplicare, Stergere, Rearanjare. Inserare obiecte: Text, Imagini, Forme geometrice.\n\nExemplu: Duplicarea unui slide cu titlu si adaugarea de continut nou pe cel duplicat.",
+                  "children": []
+                },
+                {
+                  "id": "u2-3-ex-vi",
+                  "text": "Exemplu: Insereaza o imagine din Internet intr-un slide si redimensioneaz-o pentru a se potrivi layout-ului.",
+                  "children": []
+                },
+                {
+                  "id": "u2-3-act-vi",
+                  "text": "Activitate: Creeaza 5 diapozitive noi intr-o prezentare existenta, inserand forme si imagini tematice.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u2-4-vi",
+              "text": "Estetica prezentarii",
+              "children": [
+                {
+                  "id": "u2-4-desc-vi",
+                  "text": "Formatare: Fonturi (Arial, Times New Roman), Culori, Aliniere, Borduri. Efecte: Animație (Fly In, Wipe), Tranzitii (Fade, Push).\n\nExemplu: Aplica un fundal unitar pe toate slide-urile pentru consistenta vizuala.",
+                  "children": []
+                },
+                {
+                  "id": "u2-4-ex-vi",
+                  "text": "Exemplu: Formateaza titlul in bold, marime 44, culoare albastra, si anima-l sa apara din stanga.",
+                  "children": []
+                },
+                {
+                  "id": "u2-4-act-vi",
+                  "text": "Activitate: Aplica efecte de animație pe 3 obiecte dintr-un slide si testeaza tranzitiile intre diapozitive.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u2-5-vi",
+              "text": "Expunere diapozitive",
+              "children": [
+                {
+                  "id": "u2-5-desc-vi",
+                  "text": "Modalitati: Slide Show, Prezenta inainte de clasa. Reguli ergonomie: Ecran la nivelul ochilor, pauze, lumina ambientala. Susținere: Vorbește clar, menține contact vizual.\n\nExemplu: Foloseste butonul 'From Beginning' pentru a incepe prezentarea si navigheaza cu sagetile.",
+                  "children": []
+                },
+                {
+                  "id": "u2-5-ex-vi",
+                  "text": "Exemplu: Prezinta o slide cu 'Hobby-urile mele' vorbind 1 minut despre fiecare imagine.",
+                  "children": []
+                },
+                {
+                  "id": "u2-5-act-vi",
+                  "text": "Activitate: Pregateste si sustine o prezentare de 2 minute in fata clasei, folosind 5 slide-uri despre un animal preferat.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u2-rec-vi",
+              "text": "Recapitulare Unitate 2",
+              "children": [
+                {
+                  "id": "u2-rec-q-vi",
+                  "text": "Intrebari: Ce este o tranzitie? (Efect intre slide-uri). Cum formatezi un text? (Font, culoare, aliniere).",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u2-eval-vi",
+              "text": "Evaluare Unitate 2",
+              "children": [
+                {
+                  "id": "u2-eval-ex-vi",
+                  "text": "Exercitiu: Realizeaza o prezentare de 8 slide-uri despre 'Vacanta de vara', cu animații si expunere orala.",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "unit3-vi",
+          "text": "Unitatea 3: Animații grafice și modele 3D",
+          "children": [
+            {
+              "id": "u3-1-vi",
+              "text": "Prezentare generala a animațiilor grafice",
+              "children": [
+                {
+                  "id": "u3-1-desc-vi",
+                  "text": "Animațiile creeaza iluzia de miscare prin cadre succesive. Aplicații: Animation Desk, Pivot. Etape: Planificare scenariu, Desen cadre, Export GIF.\n\nExemplu: O animație simpla cu un personaj care merge: 4 cadre cu piciorul in pozitii diferite.",
+                  "children": []
+                },
+                {
+                  "id": "u3-1-ex-vi",
+                  "text": "Exemplu: Folosind Paint, deseneaza 3 cadre pentru un ochi care clipeste si combina-le in GIF pe ezgif.com.",
+                  "children": []
+                },
+                {
+                  "id": "u3-1-act-vi",
+                  "text": "Activitate: Exploreaza interfața Animation Desk si creeaza o animație de 5 cadre cu un balon care se umfla.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u3-2-vi",
+              "text": "Etapele realizarii unei animații",
+              "children": [
+                {
+                  "id": "u3-2-desc-vi",
+                  "text": "Scenariu: Compozitie (obiecte, fundal), Cadre (timp, miscare). Operatii: Inserare cadru, Copiere, Editare proprietati (rotire, transparenta).\n\nExemplu: Temporizare: Fiecare cadru 0.5 secunde pentru o miscare fluida.",
+                  "children": []
+                },
+                {
+                  "id": "u3-2-ex-vi",
+                  "text": "Exemplu: Creeaza o animație cu o pisica care sare: 6 cadre, cu efecte de Onion Skin pentru suprapunere.",
+                  "children": []
+                },
+                {
+                  "id": "u3-2-act-vi",
+                  "text": "Activitate: Planifica un scenariu pentru o animație despre ciclul vietii unei flori si deseneaza primele 4 cadre.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u3-3-vi",
+              "text": "Modele 3D",
+              "children": [
+                {
+                  "id": "u3-3-desc-vi",
+                  "text": "Aplicații: Tinkercad. Operatii: Inserare forme geometrice (cub, cilindru), Modificare dimensiuni, Grupare, Export STL.\n\nExemplu: Creeaza un cub cu gaura (Hole) pentru a simula o fereastra intr-o casa 3D.",
+                  "children": []
+                },
+                {
+                  "id": "u3-3-ex-vi",
+                  "text": "Exemplu: Model 3D al unui avion: Insereaza sfere si cutii, aliniaza si coloreaza pentru aripi si corp.",
+                  "children": []
+                },
+                {
+                  "id": "u3-3-act-vi",
+                  "text": "Activitate: Creeaza un model 3D simplu al unei case in Tinkercad, cu usa, ferestre si acoperis.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u3-4-vi",
+              "text": "Realitatea virtuala si augmentata",
+              "children": [
+                {
+                  "id": "u3-4-desc-vi",
+                  "text": "Aplicații: CoSpaces Edu. Avantaje: Imersie educativa. Pași: Creeare cont, Adaugare obiecte 3D, Cod simplu pentru interactivitate.\n\nExemplu: VR pentru tur virtual al unei muzee, cu click pe exponate pentru info suplimentare.",
+                  "children": []
+                },
+                {
+                  "id": "u3-4-ex-vi",
+                  "text": "Exemplu: Creeaza o scena AR cu un dinozaur care apare pe birou via camera telefonului.",
+                  "children": []
+                },
+                {
+                  "id": "u3-4-act-vi",
+                  "text": "Activitate: In CoSpaces Edu, construieste o scena 3D cu Sistemul Solar, adaugand rotatie automata planetelor.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u3-rec-vi",
+              "text": "Recapitulare Unitate 3",
+              "children": [
+                {
+                  "id": "u3-rec-q-vi",
+                  "text": "Intrebari: Ce este Onion Skin? (Suprapunere cadre pentru editare). Cum creezi un model 3D? (Forme, grupare, export).",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u3-eval-vi",
+              "text": "Evaluare Unitate 3",
+              "children": [
+                {
+                  "id": "u3-eval-ex-vi",
+                  "text": "Exercitiu: Realizeaza o animație de 10 cadre despre un fenomen natural si un model 3D integrat intr-o scena VR.",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "unit4-vi",
+          "text": "Unitatea 4: Algoritmi",
+          "children": [
+            {
+              "id": "u4-1-vi",
+              "text": "Elementele de interfață ale aplicației Scratch",
+              "children": [
+                {
+                  "id": "u4-1-desc-vi",
+                  "text": "Scratch: Scena (fundal), Sprite-uri (personaje), Blocuri (miscare, control, senzori). Categorii: Motion, Looks, Sound, Events.\n\nExemplu: Trage blocul 'when green flag clicked' pentru startul programului.",
+                  "children": []
+                },
+                {
+                  "id": "u4-1-ex-vi",
+                  "text": "Exemplu: Schimba fundalul la 'Pădure' si adauga un sprite 'Dragon' pentru o poveste interactiva.",
+                  "children": []
+                },
+                {
+                  "id": "u4-1-act-vi",
+                  "text": "Activitate: Creeaza un proiect nou in Scratch si identifica 4 categorii de blocuri, testand un bloc de miscare.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u4-2-vi",
+              "text": "Instrumente de bază și etapele unui exercițiu algoritmic",
+              "children": [
+                {
+                  "id": "u4-2-desc-vi",
+                  "text": "Etape: Analiza problemei, Proiectare algoritm, Implementare, Testare, Depanare. Blocuri de baza: Move 10 steps, Turn 15 degrees.\n\nExemplu: Pentru 'Deseneaza un patrat': Repeat 4 [move 100, turn 90].",
+                  "children": []
+                },
+                {
+                  "id": "u4-2-ex-vi",
+                  "text": "Exemplu: Ghiceste un numar: Creeaza variabila 'NumarSecret', compara cu input utilizator.",
+                  "children": []
+                },
+                {
+                  "id": "u4-2-act-vi",
+                  "text": "Activitate: Urmareste pas cu pas un algoritm dat si modifica-l pentru a adauga un sunet la final.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u4-3-vi",
+              "text": "Structura repetitivă",
+              "children": [
+                {
+                  "id": "u4-3-desc-vi",
+                  "text": "Tipuri: Repeat (cu contor), Forever (infinit), Repeat until (condiționată). Pseudocod: REPETA pânâ când conditie {pasi}.\n\nExemplu: Repeat 10 [say 'Salut!' for 1 sec] pentru un salut repetat.",
+                  "children": []
+                },
+                {
+                  "id": "u4-3-ex-vi",
+                  "text": "Exemplu: Structura repetitiva posteriori: Repeat until touch edge [move 10].",
+                  "children": []
+                },
+                {
+                  "id": "u4-3-act-vi",
+                  "text": "Activitate: Implementeaza in Scratch o bucla care deseneaza 5 stele consecutive, folosind repeat cu contor.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u4-4-vi",
+              "text": "Aplicații și controlul animației",
+              "children": [
+                {
+                  "id": "u4-4-desc-vi",
+                  "text": "Integrare: Blocuri de control cu animație (daca...atunci). Reprezentare: Schemă logică cu romburi pentru conditii.\n\nExemplu: Daca touch color red then change color to green (pentru un joc de culori).",
+                  "children": []
+                },
+                {
+                  "id": "u4-4-ex-vi",
+                  "text": "Exemplu: Algoritm pentru sortare simpla: Repeat until sorted [verifica vecini, schimba daca necesar].",
+                  "children": []
+                },
+                {
+                  "id": "u4-4-act-vi",
+                  "text": "Activitate: Creeaza un joc simplu in Scratch cu bucla repetitiva si conditie pentru castig.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u4-rec-vi",
+              "text": "Recapitulare Unitate 4",
+              "children": [
+                {
+                  "id": "u4-rec-q-vi",
+                  "text": "Intrebari: Ce bloc folosesti pentru bucla cu contor? (Repeat). Cum testezi un algoritm? (Ruleaza si depaneaza erorile).",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u4-eval-vi",
+              "text": "Evaluare Unitate 4",
+              "children": [
+                {
+                  "id": "u4-eval-ex-vi",
+                  "text": "Exercitiu: Scrie pseudocod si implementeaza in Scratch un algoritm pentru calculul mediei a 5 note cu bucla repetitiva.",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "unit5-vi",
+          "text": "Unitatea 5: Proiecte, recapitulare si evaluare finala",
+          "children": [
+            {
+              "id": "u5-1-vi",
+              "text": "Proiecte creative",
+              "children": [
+                {
+                  "id": "u5-1-desc-vi",
+                  "text": "Integreaza unitatile: Creeaza o prezentare cu animatii 3D si algoritmi Scratch, incorporand elemente de comunicare sigura online.",
+                  "children": []
+                },
+                {
+                  "id": "u5-1-ex-vi",
+                  "text": "Exemplu: Proiect 'Viata in era digitala': Prezentare PowerPoint cu slide-uri animate despre siguranta online, model 3D al unui gadget si un mini-joc Scratch pentru testarea cunostintelor.",
+                  "children": []
+                },
+                {
+                  "id": "u5-1-act-vi",
+                  "text": "Activitate: In echipe de 3, dezvoltati un proiect multimedia despre 'Protectia mediului', folosind e-mail pentru colaborare, prezentare cu animatii si algoritm interactiv.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u5-2-vi",
+              "text": "Recapitulare generala",
+              "children": [
+                {
+                  "id": "u5-2-q-vi",
+                  "text": "Intrebari cheie: Ce masuri iei pentru siguranta online? (Antivirus, neticheta). Cum creezi o bucla in Scratch? (Repeat cu conditie).",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u5-3-vi",
+              "text": "Evaluare finala",
+              "children": [
+                {
+                  "id": "u5-3-ex-vi",
+                  "text": "Test: 15 intrebari mixte + proiect integrat (prezentare cu animatie si algoritm, 30 puncte).",
+                  "children": []
+                },
+                {
+                  "id": "u5-3-port-vi",
+                  "text": "Portofoliu: Colectie de 6 lucrari (e-mail sigur, prezentare, animatie 3D, cod Scratch) cu reflectie personala asupra invatarii.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "resurse-fin-vi",
+              "text": "Resurse aditionale: Scratch.mit.edu; Tinkercad.com; CoSpaces.io; PowerPoint Tutorials pe YouTube; Resurse gratuite Pixabay pentru imagini.",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-vii",
+      "text": "@Informatica si TIC Clasa a VII-a",
+      "children": [
+        {
+          "id": "intro-vii",
+          "text": "Introducere - Competente Generale",
+          "children": [
+            {
+              "id": "cg1-vii",
+              "text": "1. Utilizarea responsabila si eficienta a tehnicii de calcul si de comunicatii",
+              "children": [
+                {
+                  "id": "cg1-desc-vii",
+                  "text": "Aceasta competenta se concentreaza pe utilizarea avansata a echipamentelor digitale, cu accent pe tehnoredactare, prelucrare multimedia si colaborare online, respectand etica si siguranta in procese creative.",
+                  "children": []
+                },
+                {
+                  "id": "cg1-ex-vii",
+                  "text": "Exemplu: Editarea unui document colaborativ in Google Docs, unde elevii adauga continut fara a sterge contributiile altora, promovand respectul mutual.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "cg2-vii",
+              "text": "2. Rezolvarea unor probleme elementare prin construirea unor algoritmi de prelucrare a informatiei",
+              "children": [
+                {
+                  "id": "cg2-desc-vii",
+                  "text": "Dezvolta gandirea algoritmica prin analiza problemelor, scrierea in pseudocod si implementarea in limbaje de programare de baza, incluzand structuri conditionale si repetitive.",
+                  "children": []
+                },
+                {
+                  "id": "cg2-ex-vii",
+                  "text": "Exemplu: Algoritm pentru verificarea divizibilitatii unui numar cu 3, folosind suma cifrelor, implementat in pseudocod si apoi in Pascal.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "cg3-vii",
+              "text": "3. Elaborarea creativa de produse informatice care sa valorifice conexiunile dintre disciplina Informatica si TIC si societate",
+              "children": [
+                {
+                  "id": "cg3-desc-vii",
+                  "text": "Implica crearea de produse multimedia si documente care integreaza informatii interdisciplinare, promovand colaborarea si aplicatiile practice in societate.",
+                  "children": []
+                },
+                {
+                  "id": "cg3-ex-vii",
+                  "text": "Exemplu: Realizarea unui videoclip educational despre reciclare, cu montaj audio-video si algoritm pentru calculul impactului ambiental.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "resurse-vii",
+              "text": "Resurse generale: Programa oficiala - https://www.ise.ro/wp-content/uploads/2017/01/informatica-si-TIC.pdf; Manuale: Editura Didactica, CD Press; Medii: LibreOffice Writer, Audacity, Scratch/Pascal.",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "unit1-vii",
+          "text": "Unitatea 1: Editarea si tehnoredactarea documentelor",
+          "children": [
+            {
+              "id": "u1-1-vii",
+              "text": "Interfața unei aplicații de realizare a documentelor",
+              "children": [
+                {
+                  "id": "u1-1-desc-vii",
+                  "text": "Elemente: Bara de meniuri (Fisier, Editare, Inserare), Bara de instrumente (formatare text, tabele), Zona de lucru (pagină cu margini).\n\nExemplu: In LibreOffice Writer, bara de formatare include butoane pentru bold, italic si aliniere.",
+                  "children": []
+                },
+                {
+                  "id": "u1-1-ex-vii",
+                  "text": "Exemplu: Deschide un document nou si identifica bara de meniuri, folosind 'Fisier > Salvare' pentru a salva ca .odt.",
+                  "children": []
+                },
+                {
+                  "id": "u1-1-act-vii",
+                  "text": "Activitate: Exploreaza interfata Writer si noteaza 5 meniuri principale cu functiile lor.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u1-2-vii",
+              "text": "Instrumente de bază ale unei aplicații de realizare a documentelor",
+              "children": [
+                {
+                  "id": "u1-2-desc-vii",
+                  "text": "Instrumente: Cursor pentru text, Inserare imagine/tabel, Verificare ortografica.\n\nExemplu: Foloseste instrumentul 'Tabel' pentru a crea o grila 3x3.",
+                  "children": []
+                },
+                {
+                  "id": "u1-2-ex-vii",
+                  "text": "Exemplu: Insereaza o imagine in document si redimensioneaz-o cu manerele de colt.",
+                  "children": []
+                },
+                {
+                  "id": "u1-2-act-vii",
+                  "text": "Activitate: Creeaza un tabel cu programul zilnic si insereaza o imagine tematica.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u1-3-vii",
+              "text": "Operații pentru gestionarea unui document: creare, deschidere, vizualizare, salvare, închidere",
+              "children": [
+                {
+                  "id": "u1-3-desc-vii",
+                  "text": "Creare: Fisier > Nou; Deschidere: Fisier > Deschide; Salvare: Ctrl+S; Vizualizare: Mod Print Layout.\n\nExemplu: Salveaza documentul ca 'Referat_Clasa7.odt' in folderul 'Documente Scolare'.",
+                  "children": []
+                },
+                {
+                  "id": "u1-3-ex-vii",
+                  "text": "Exemplu: Deschide un document existent, modifica titlul si salveaza ca noua versiune.",
+                  "children": []
+                },
+                {
+                  "id": "u1-3-act-vii",
+                  "text": "Activitate: Gestioneaza 3 documente: creeaza, deschide, salveaza cu nume descriptive.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u1-4-vii",
+              "text": "Obiecte într-un document: text, imagini, tabele",
+              "children": [
+                {
+                  "id": "u1-4-desc-vii",
+                  "text": "Text: Paragrafe, liste; Imagini: .jpg, .png; Tabele: Randuri, coloane.\n\nExemplu: Insereaza un tabel cu 2 coloane pentru comparatie 'Avantaje vs. Dezavantaje'.",
+                  "children": []
+                },
+                {
+                  "id": "u1-4-ex-vii",
+                  "text": "Exemplu: Adauga o imagine in document si centreaz-o sub titlu.",
+                  "children": []
+                },
+                {
+                  "id": "u1-4-act-vii",
+                  "text": "Activitate: Creeaza un document cu text, o imagine si un tabel despre un subiect istoric.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u1-5-vii",
+              "text": "Operaţii de editare într-un document: copiere, mutare, ștergere",
+              "children": [
+                {
+                  "id": "u1-5-desc-vii",
+                  "text": "Copiere: Ctrl+C, V; Mutare: Taie (Ctrl+X), Lipește; Ștergere: Delete/Backspace.\n\nExemplu: Copiaza un paragraf si lipeste-l in alt loc, apoi sterge duplicatul.",
+                  "children": []
+                },
+                {
+                  "id": "u1-5-ex-vii",
+                  "text": "Exemplu: Muta o imagine dintr-o sectiune in alta fara a o sterge accidental.",
+                  "children": []
+                },
+                {
+                  "id": "u1-5-act-vii",
+                  "text": "Activitate: Editeaza un document model prin copiere, mutare si stergere a 5 elemente.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u1-6-vii",
+              "text": "Operaţii de formatare a unui document: text, imagine, tabel, pagină",
+              "children": [
+                {
+                  "id": "u1-6-desc-vii",
+                  "text": "Text: Font, dimensiune, culori; Imagine: Cadru, aliniere; Tabel: Borduri, umplere; Pagină: Margini, orientare.\n\nExemplu: Formateaza titlul in Arial 14 bold, si adauga borduri tabelului.",
+                  "children": []
+                },
+                {
+                  "id": "u1-6-ex-vii",
+                  "text": "Exemplu: Schimba orientarea paginii la landscape pentru un tabel lat.",
+                  "children": []
+                },
+                {
+                  "id": "u1-6-act-vii",
+                  "text": "Activitate: Formateaza un document cu 3 stiluri diferite pentru text, imagine si tabel.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u1-7-vii",
+              "text": "Reguli generale de tehnoredactare şi estetică a paginii tipărite",
+              "children": [
+                {
+                  "id": "u1-7-desc-vii",
+                  "text": "Reguli: Aliniere stanga/centrare, spatii consistente, fonturi lizibile, imagini relevante; Estetica: Echilibru vizual, contrast culori.\n\nExemplu: Foloseste 1.5 spatiu intre randuri pentru citibilitate.",
+                  "children": []
+                },
+                {
+                  "id": "u1-7-ex-vii",
+                  "text": "Exemplu: Un CV cu font Times New Roman 12, margini 2cm, titluri bold.",
+                  "children": []
+                },
+                {
+                  "id": "u1-7-act-vii",
+                  "text": "Activitate: Revizuieste un document pentru estetica si aplica 5 reguli de tehnoredactare.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u1-8-vii",
+              "text": "Reguli de lucru în realizarea unui document conform unor specificații",
+              "children": [
+                {
+                  "id": "u1-8-desc-vii",
+                  "text": "Specificatii: Dimensiune A4, font 12pt, margini 2.5cm, max 2 pagini.\n\nExemplu: Creeaza o scrisoare cu lungime exacta 200 cuvinte.",
+                  "children": []
+                },
+                {
+                  "id": "u1-8-ex-vii",
+                  "text": "Exemplu: Carte de vizita: Dimensiune imagine 3x3cm, font 10pt pentru detalii.",
+                  "children": []
+                },
+                {
+                  "id": "u1-8-act-vii",
+                  "text": "Activitate: Realizeaza un referat conform specificatiilor date (ex: 1 pagina, 3 imagini).",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u1-rec-vii",
+              "text": "Recapitulare Unitate 1",
+              "children": [
+                {
+                  "id": "u1-rec-q-vii",
+                  "text": "Intrebari: Ce operatie folosesti pentru mutare? (Taie si Lipește). Care e regula de estetica pentru fonturi? (Lizibile, consistente).",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u1-eval-vii",
+              "text": "Evaluare Unitate 1",
+              "children": [
+                {
+                  "id": "u1-eval-ex-vii",
+                  "text": "Exercitiu: Editeaza si formateaza un CV model conform specificatiilor, cu tabel si imagine.",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "unit2-vii",
+          "text": "Unitatea 2: Prelucrarea fișierelor audio și audio-video",
+          "children": [
+            {
+              "id": "u2-1-vii",
+              "text": "Interfața unei aplicații de prelucrare a fișierelor audio respectiv audio-video",
+              "children": [
+                {
+                  "id": "u2-1-desc-vii",
+                  "text": "Elemente: Timeline (linie timp), Panou efecte, Bara transport (play, stop, record).\n\nExemplu: In Audacity, timeline afiseaza unda sonora; in Shotcut, include video tracks.",
+                  "children": []
+                },
+                {
+                  "id": "u2-1-ex-vii",
+                  "text": "Exemplu: Deschide Audacity si identifica butonul Record pentru inregistrare audio.",
+                  "children": []
+                },
+                {
+                  "id": "u2-1-act-vii",
+                  "text": "Activitate: Exploreaza interfata Audacity si Shotcut, notand 4 elemente comune.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u2-2-vii",
+              "text": "Operații pentru gestionarea unei aplicații audio, audio-video: creare, deschidere, vizualizare, salvare, închidere",
+              "children": [
+                {
+                  "id": "u2-2-desc-vii",
+                  "text": "Creare: Nou proiect; Deschidere: Import fisier; Salvare: Export MP3/WAV; Vizualizare: Preview.\n\nExemplu: Salveaza un fisier audio ca 'Interviu_Clasa7.mp3'.",
+                  "children": []
+                },
+                {
+                  "id": "u2-2-ex-vii",
+                  "text": "Exemplu: Importa un video existent si vizualizeaza timeline-ul.",
+                  "children": []
+                },
+                {
+                  "id": "u2-2-act-vii",
+                  "text": "Activitate: Gestioneaza un proiect audio: creeaza, importa, exporta in format MP3.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u2-3-vii",
+              "text": "Înregistrarea şi redarea sunetelor",
+              "children": [
+                {
+                  "id": "u2-3-desc-vii",
+                  "text": "Inregistrare: Microfon activ, monitorizare nivel; Redare: Play, pauza, loop.\n\nExemplu: Inregistreaza o voce narativa de 30 secunde si red-o pentru verificare.",
+                  "children": []
+                },
+                {
+                  "id": "u2-3-ex-vii",
+                  "text": "Exemplu: Reda un sunet importat si ajusteaza volumul la 80%.",
+                  "children": []
+                },
+                {
+                  "id": "u2-3-act-vii",
+                  "text": "Activitate: Inregistreaza un interviu scurt cu un coleg si reda-l pentru editare.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u2-4-vii",
+              "text": "Mixarea semnalului audio din mai multe surse",
+              "children": [
+                {
+                  "id": "u2-4-desc-vii",
+                  "text": "Mixare: Suprapunere tracks, ajustare niveluri, fade in/out.\n\nExemplu: Mixeaza voce cu muzica de fundal, reducand volumul muzicii la 50%.",
+                  "children": []
+                },
+                {
+                  "id": "u2-4-ex-vii",
+                  "text": "Exemplu: Adauga 2 piste audio si mixeaza pentru un efect echilibrat.",
+                  "children": []
+                },
+                {
+                  "id": "u2-4-act-vii",
+                  "text": "Activitate: Creeaza un mix audio cu 3 surse: voce, efecte, muzica.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u2-5-vii",
+              "text": "Selecţia unor secvențe audio, audio-video pentru ștergere, copiere şi mutare",
+              "children": [
+                {
+                  "id": "u2-5-desc-vii",
+                  "text": "Selectie: Drag pe timeline; Copiere: Ctrl+C; Mutare: Drag; Stergere: Delete.\n\nExemplu: Selecteaza o secventa de 10 secunde si copiaza-o la sfarsitul clipului.",
+                  "children": []
+                },
+                {
+                  "id": "u2-5-ex-vii",
+                  "text": "Exemplu: Muta o scena video intre 2 altele pentru rearanjare narativa.",
+                  "children": []
+                },
+                {
+                  "id": "u2-5-act-vii",
+                  "text": "Activitate: Editeaza un clip prin selectie, copiere si stergere a 4 secvente.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u2-6-vii",
+              "text": "Efecte de tranziție între scene",
+              "children": [
+                {
+                  "id": "u2-6-desc-vii",
+                  "text": "Tranzitii: Fade, Dissolve, Wipe; Durata: 1-2 secunde.\n\nExemplu: Aplică fade out intre 2 scene pentru tranzitie fluida.",
+                  "children": []
+                },
+                {
+                  "id": "u2-6-ex-vii",
+                  "text": "Exemplu: Foloseste wipe pentru tranzitia intre un interviu si o demonstratie.",
+                  "children": []
+                },
+                {
+                  "id": "u2-6-act-vii",
+                  "text": "Activitate: Adauga 3 tranzitii diferite intr-un clip video de 1 minut.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u2-7-vii",
+              "text": "Suprapunere coloană sonoră peste scene",
+              "children": [
+                {
+                  "id": "u2-7-desc-vii",
+                  "text": "Suprapunere: Adauga track audio peste video, sincronizare.\n\nExemplu: Pune muzica de fundal peste dialog, reducand volumul in timpul vorbirii.",
+                  "children": []
+                },
+                {
+                  "id": "u2-7-ex-vii",
+                  "text": "Exemplu: Suprapune naratiune audio peste imagini statice pentru un slideshow.",
+                  "children": []
+                },
+                {
+                  "id": "u2-7-act-vii",
+                  "text": "Activitate: Creeaza un video cu suprapunere audio pe 5 scene.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u2-8-vii",
+              "text": "Reguli de lucru în realizarea unei aplicații audio, audio-video conform unor specificații",
+              "children": [
+                {
+                  "id": "u2-8-desc-vii",
+                  "text": "Specificatii: Durata max 2 min, rezolutie 720p, format MP4; Calitate: Sunet clar, video stabil.\n\nExemplu: Un interviu de 1 min cu 2 tranzitii si muzica de fundal joasa.",
+                  "children": []
+                },
+                {
+                  "id": "u2-8-ex-vii",
+                  "text": "Exemplu: Clip promotional: 30 sec, cu logo la inceput si call-to-action la sfarsit.",
+                  "children": []
+                },
+                {
+                  "id": "u2-8-act-vii",
+                  "text": "Activitate: Realizeaza un montaj conform specificatiilor (ex: tema 'O zi la scoala').",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u2-rec-vii",
+              "text": "Recapitulare Unitate 2",
+              "children": [
+                {
+                  "id": "u2-rec-q-vii",
+                  "text": "Intrebari: Ce e timeline? (Linie timp pentru editare). Cum mixezi audio? (Suprapunere tracks cu ajustari).",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u2-eval-vii",
+              "text": "Evaluare Unitate 2",
+              "children": [
+                {
+                  "id": "u2-eval-ex-vii",
+                  "text": "Exercitiu: Creeaza un clip audio-video de 1 min cu mixare, tranzitii si suprapunere, conform specificatiilor.",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "unit3-vii",
+          "text": "Unitatea 3: Aplicații colaborative",
+          "children": [
+            {
+              "id": "u3-1-vii",
+              "text": "Noțiunea de aplicație colaborativă",
+              "children": [
+                {
+                  "id": "u3-1-desc-vii",
+                  "text": "Aplicații: Google Docs, Microsoft Teams, Wiki; Permite editare simultana, istoric versiuni.\n\nExemplu: Google Docs: Multipli utilizatori vad schimbari in timp real.",
+                  "children": []
+                },
+                {
+                  "id": "u3-1-ex-vii",
+                  "text": "Exemplu: Un grup editeaza un document simultan, vazand cursorul altora.",
+                  "children": []
+                },
+                {
+                  "id": "u3-1-act-vii",
+                  "text": "Activitate: Definitie si exemple de 3 aplicații colaborative.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u3-2-vii",
+              "text": "Accesare/conectare în aplicația colaborativă",
+              "children": [
+                {
+                  "id": "u3-2-desc-vii",
+                  "text": "Pași: Creeaza cont, Invita prin email, Permisiuni (edit/view).\n\nExemplu: In Google Docs, share cu 'Editor' pentru acces complet.",
+                  "children": []
+                },
+                {
+                  "id": "u3-2-ex-vii",
+                  "text": "Exemplu: Conecteaza-te la un document partajat si adauga comentariu.",
+                  "children": []
+                },
+                {
+                  "id": "u3-2-act-vii",
+                  "text": "Activitate: Creeaza un document si invita 2 colegi sa editeze.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u3-3-vii",
+              "text": "Facilități ale aplicațiilor de tip colaborativ",
+              "children": [
+                {
+                  "id": "u3-3-desc-vii",
+                  "text": "Facilitati: Chat integrat, Comentarii, Revizuire schimbari, Versiuni.\n\nExemplu: Foloseste 'Sugestii' in Google Docs pentru propuneri fara modificari directe.",
+                  "children": []
+                },
+                {
+                  "id": "u3-3-ex-vii",
+                  "text": "Exemplu: Revizuieste istoric pentru a vedea cine a adaugat un paragraf.",
+                  "children": []
+                },
+                {
+                  "id": "u3-3-act-vii",
+                  "text": "Activitate: Utilizeaza chat si comentarii intr-un proiect de grup.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u3-4-vii",
+              "text": "Interfața aplicației colaborative",
+              "children": [
+                {
+                  "id": "u3-4-desc-vii",
+                  "text": "Elemente: Zona editare, Panou participanti, Istoric versiuni.\n\nExemplu: In Microsoft Teams, tab-uri pentru documente si chat.",
+                  "children": []
+                },
+                {
+                  "id": "u3-4-ex-vii",
+                  "text": "Exemplu: Identifica panoul cu participanti activi.",
+                  "children": []
+                },
+                {
+                  "id": "u3-4-act-vii",
+                  "text": "Activitate: Exploreaza interfata si noteaza 4 facilitati.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u3-5-vii",
+              "text": "Instrumente de lucru: documente, prezentări",
+              "children": [
+                {
+                  "id": "u3-5-desc-vii",
+                  "text": "Instrumente: Edit text, Inserare slide, Colaborare in timp real.\n\nExemplu: Creeaza o prezentare colaborativa cu slide-uri partajate.",
+                  "children": []
+                },
+                {
+                  "id": "u3-5-ex-vii",
+                  "text": "Exemplu: Un grup adauga slide-uri la o prezentare despre istorie.",
+                  "children": []
+                },
+                {
+                  "id": "u3-5-act-vii",
+                  "text": "Activitate: Creeaza un document si o prezentare cu contributii de la colegi.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u3-6-vii",
+              "text": "Operații permise în aplicație: publicare, modificare conținuturi",
+              "children": [
+                {
+                  "id": "u3-6-desc-vii",
+                  "text": "Publicare: Share public/link; Modificare: Edit, Comentariu, Revizuire.\n\nExemplu: Publica un document pe blog scolar pentru feedback.",
+                  "children": []
+                },
+                {
+                  "id": "u3-6-ex-vii",
+                  "text": "Exemplu: Modifica continut in modul 'Sugestii' pentru aprobare.",
+                  "children": []
+                },
+                {
+                  "id": "u3-6-act-vii",
+                  "text": "Activitate: Publica un document si modifica continut colaborativ.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u3-7-vii",
+              "text": "Noțiuni de etică într-un mediu colaborativ",
+              "children": [
+                {
+                  "id": "u3-7-desc-vii",
+                  "text": "Etica: Respecta contributii, Atribuie credit, Nu plagia, Confidentila.\n\nExemplu: Mentine confidential un document de grup pana la finalizare.",
+                  "children": []
+                },
+                {
+                  "id": "u3-7-ex-vii",
+                  "text": "Exemplu: Adauga nume autor la o sectiune editata.",
+                  "children": []
+                },
+                {
+                  "id": "u3-7-act-vii",
+                  "text": "Activitate: Discuta un scenariu etic si creeaza reguli de grup.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u3-rec-vii",
+              "text": "Recapitulare Unitate 3",
+              "children": [
+                {
+                  "id": "u3-rec-q-vii",
+                  "text": "Intrebari: Ce e istoric versiuni? (Urmarire schimbari). Care regula etica? (Atribuie credit).",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u3-eval-vii",
+              "text": "Evaluare Unitate 3",
+              "children": [
+                {
+                  "id": "u3-eval-ex-vii",
+                  "text": "Exercitiu: Creeaza o poveste colaborativa cu 4 contributii, folosind etica si facilitati.",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "unit4-vii",
+          "text": "Unitatea 4: Programare de bază",
+          "children": [
+            {
+              "id": "u4-1-vii",
+              "text": "Facilități ale mediului de dezvoltare pentru un limbaj de programare: editare, rulare și depanare",
+              "children": [
+                {
+                  "id": "u4-1-desc-vii",
+                  "text": "Medii: Dev-C++ pentru C, Lazarus pentru Pascal; Facilitati: Editor cod, Compilator, Debugger.\n\nExemplu: In Dev-C++, scrie cod, compileaza cu F9, ruleaza cu F11.",
+                  "children": []
+                },
+                {
+                  "id": "u4-1-ex-vii",
+                  "text": "Exemplu: Depaneaza eroare de sintaxa in linia 5 folosind highlight.",
+                  "children": []
+                },
+                {
+                  "id": "u4-1-act-vii",
+                  "text": "Activitate: Instaleaza un mediu si ruleaza un program 'Hello World'.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u4-2-vii",
+              "text": "Structura programelor",
+              "children": [
+                {
+                  "id": "u4-2-desc-vii",
+                  "text": "Structura: Directiva include, Main, Blocuri { }; Comentarii //.\n\nExemplu: In C: #include <stdio.h> int main() { printf('Salut'); return 0; }",
+                  "children": []
+                },
+                {
+                  "id": "u4-2-ex-vii",
+                  "text": "Exemplu: Adauga comentariu in cod pentru explicarea unei linii.",
+                  "children": []
+                },
+                {
+                  "id": "u4-2-act-vii",
+                  "text": "Activitate: Scrie structura de baza a unui program Pascal.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u4-3-vii",
+              "text": "Vocabularul limbajului",
+              "children": [
+                {
+                  "id": "u4-3-desc-vii",
+                  "text": "Cuvinte cheie: int, if, while; Variabile, constante.\n\nExemplu: int x = 5; if (x > 0) printf('Pozitiv');",
+                  "children": []
+                },
+                {
+                  "id": "u4-3-ex-vii",
+                  "text": "Exemplu: Declara 3 variabile numerice in Pascal: var a,b,c: integer;",
+                  "children": []
+                },
+                {
+                  "id": "u4-3-act-vii",
+                  "text": "Activitate: Listeaza 5 cuvinte cheie si exemple de folosire.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u4-4-vii",
+              "text": "Date numerice",
+              "children": [
+                {
+                  "id": "u4-4-desc-vii",
+                  "text": "Tipuri: integer, real, char; Operatii: +, -, *, /.\n\nExemplu: real media = (nota1 + nota2) / 2;",
+                  "children": []
+                },
+                {
+                  "id": "u4-4-ex-vii",
+                  "text": "Exemplu: Calculeaza aria cercului: pi * r * r cu r real.",
+                  "children": []
+                },
+                {
+                  "id": "u4-4-act-vii",
+                  "text": "Activitate: Declara si initializeaza 4 date numerice.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u4-5-vii",
+              "text": "Operații de citire și afișare a datelor",
+              "children": [
+                {
+                  "id": "u4-5-desc-vii",
+                  "text": "Citire: scanf/input; Afișare: printf/write.\n\nExemplu: In C: scanf('%d', &n); printf('Numar: %d', n);",
+                  "children": []
+                },
+                {
+                  "id": "u4-5-ex-vii",
+                  "text": "Exemplu: Citeste 2 numere si afiseaza suma lor.",
+                  "children": []
+                },
+                {
+                  "id": "u4-5-act-vii",
+                  "text": "Activitate: Scrie program care citeste nume si afiseaza 'Salut, [nume]'.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u4-6-vii",
+              "text": "Instrucțiuni/comenzi pentru implementarea structurilor liniare, alternative și repetitive",
+              "children": [
+                {
+                  "id": "u4-6-desc-vii",
+                  "text": "Liniare: Secventa comenzi; Alternative: if-else; Repetitive: for, while.\n\nExemplu: for(i=1; i<=10; i++) printf('%d', i);",
+                  "children": []
+                },
+                {
+                  "id": "u4-6-ex-vii",
+                  "text": "Exemplu: While (n>0) { suma += n; n--; }",
+                  "children": []
+                },
+                {
+                  "id": "u4-6-act-vii",
+                  "text": "Activitate: Implementeaza o structura repetitiva pentru afisarea numerelor pare de la 1 la 20.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u4-rec-vii",
+              "text": "Recapitulare Unitate 4",
+              "children": [
+                {
+                  "id": "u4-rec-q-vii",
+                  "text": "Intrebari: Ce e main? (Punctul de intrare). Cum declari o variabila integer? (int x;).",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u4-eval-vii",
+              "text": "Evaluare Unitate 4",
+              "children": [
+                {
+                  "id": "u4-eval-ex-vii",
+                  "text": "Exercitiu: Scrie si ruleaza un program cu citire, calcul si afisare folosind structura alternativa.",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "unit5-vii",
+          "text": "Unitatea 5: Analiza si rezolvarea problemelor algoritmice",
+          "children": [
+            {
+              "id": "u5-1-vii",
+              "text": "Identificarea datelor de intrare și ieșire",
+              "children": [
+                {
+                  "id": "u5-1-desc-vii",
+                  "text": "Intrare: Date initiale (ex: numar n); Iesire: Rezultat (ex: divizori).\n\nExemplu: Problema divizibilitate: Intrare n, Iesire 'Da/nu'.",
+                  "children": []
+                },
+                {
+                  "id": "u5-1-ex-vii",
+                  "text": "Exemplu: Buget: Intrare venit, cheltuieli; Iesire sold.",
+                  "children": []
+                },
+                {
+                  "id": "u5-1-act-vii",
+                  "text": "Activitate: Analizeaza 2 probleme si listeaza intrari/iesiri.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u5-2-vii",
+              "text": "Identificarea operațiilor necesare",
+              "children": [
+                {
+                  "id": "u5-2-desc-vii",
+                  "text": "Operatii: Calcul suma, comparatie, bucla parcurgere.\n\nExemplu: Pentru suma cifrelor: %10 pentru ultima cifra, /10 pentru rest.",
+                  "children": []
+                },
+                {
+                  "id": "u5-2-ex-vii",
+                  "text": "Exemplu: Divizori: Bucla de la 1 la n, if (n%i==0).",
+                  "children": []
+                },
+                {
+                  "id": "u5-2-act-vii",
+                  "text": "Activitate: Listeaza operatii pentru problema 'Numar prim'.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u5-3-vii",
+              "text": "Realizarea unor secvențe de operații în pseudocod",
+              "children": [
+                {
+                  "id": "u5-3-desc-vii",
+                  "text": "Pseudocod: INCEPUT; CITESTE n; SUMA=0; REPEAT... SFARSIT.\n\nExemplu: Pentru divizibilitate cu 3: CITESTE n; s=0; REPEAT s+=n%10; n/=10; PANAA s%3==0 AFISEAZA 'Da'.",
+                  "children": []
+                },
+                {
+                  "id": "u5-3-ex-vii",
+                  "text": "Exemplu: Pseudocod pentru buget: CITESTE venit, chelt; DACA venit>chelt AFISEAZA 'Pozitiv'.",
+                  "children": []
+                },
+                {
+                  "id": "u5-3-act-vii",
+                  "text": "Activitate: Scrie pseudocod pentru 3 probleme simple.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u5-4-vii",
+              "text": "Algoritmi pentru divizibilitate și gestionarea bugetului",
+              "children": [
+                {
+                  "id": "u5-4-desc-vii",
+                  "text": "Divizibilitate: Cu 2 (par), 3 (suma cifre), 5 (termina cu 0/5); Buget: Sold = venit - chelt.\n\nExemplu: Algoritm div 3: Suma cifre mod 3 ==0.",
+                  "children": []
+                },
+                {
+                  "id": "u5-4-ex-vii",
+                  "text": "Exemplu: Buget lunar: Citeste 5 cheltuieli, calculeaza total, compara cu alocatie.",
+                  "children": []
+                },
+                {
+                  "id": "u5-4-act-vii",
+                  "text": "Activitate: Creeaza algoritm pentru divizibilitate cu 9 si testeaza cu 3 numere.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u5-rec-vii",
+              "text": "Recapitulare Unitate 5",
+              "children": [
+                {
+                  "id": "u5-rec-q-vii",
+                  "text": "Intrebari: Ce e pseudocod? (Descriere algoritm in limbaj natural). Exemplu intrare pentru buget? (Venit, cheltuieli).",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u5-eval-vii",
+              "text": "Evaluare Unitate 5",
+              "children": [
+                {
+                  "id": "u5-eval-ex-vii",
+                  "text": "Exercitiu: Analizeaza o problema, scrie pseudocod si identifica operatii pentru divizibilitate.",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "unit6-vii",
+          "text": "Unitatea 6: Elaborarea de documente și produse multimedia",
+          "children": [
+            {
+              "id": "u6-1-vii",
+              "text": "Tehnoredactare de referate",
+              "children": [
+                {
+                  "id": "u6-1-desc-vii",
+                  "text": "Referat: Structura (intro, corp, concluzie), formatare academica.\n\nExemplu: Referat istoric cu citate, bibliografie si imagini.",
+                  "children": []
+                },
+                {
+                  "id": "u6-1-ex-vii",
+                  "text": "Exemplu: 2 pagini despre Unirea Principatelor, cu tabel cronologie.",
+                  "children": []
+                },
+                {
+                  "id": "u6-1-act-vii",
+                  "text": "Activitate: Redacteaza un referat tematic de 1 pagina.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u6-2-vii",
+              "text": "Realizarea de montaje audio-video",
+              "children": [
+                {
+                  "id": "u6-2-desc-vii",
+                  "text": "Montaj: Scenariu, inregistrare, editare finala.\n\nExemplu: Clip despre un eveniment scolar cu interviuri si muzica.",
+                  "children": []
+                },
+                {
+                  "id": "u6-2-ex-vii",
+                  "text": "Exemplu: Montaj de 45 sec cu 3 scene si tranzitii.",
+                  "children": []
+                },
+                {
+                  "id": "u6-2-act-vii",
+                  "text": "Activitate: Creeaza un montaj video scurt despre hobby-uri.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u6-3-vii",
+              "text": "Proiecte colaborative pentru documente și multimedia",
+              "children": [
+                {
+                  "id": "u6-3-desc-vii",
+                  "text": "Colaborare: Roluri (editor, designer), feedback.\n\nExemplu: Echipa creeaza un afiș digital in Canva colaborativ.",
+                  "children": []
+                },
+                {
+                  "id": "u6-3-ex-vii",
+                  "text": "Exemplu: Plafond cu sectiuni asignate: text, imagine, audio.",
+                  "children": []
+                },
+                {
+                  "id": "u6-3-act-vii",
+                  "text": "Activitate: In echipe, realizeaza un proiect multimedia integrat.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u6-rec-vii",
+              "text": "Recapitulare Unitate 6",
+              "children": [
+                {
+                  "id": "u6-rec-q-vii",
+                  "text": "Intrebari: Structura unui referat? (Intro, corp, concluzie). Ce e montaj? (Editare secvente).",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u6-eval-vii",
+              "text": "Evaluare Unitate 6",
+              "children": [
+                {
+                  "id": "u6-eval-ex-vii",
+                  "text": "Exercitiu: Creeaza un document multimedia colaborativ cu referat si clip integrat.",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "unit7-vii",
+          "text": "Unitatea 7: Implementarea algoritmilor în programare",
+          "children": [
+            {
+              "id": "u7-1-vii",
+              "text": "Realizarea codului sursă",
+              "children": [
+                {
+                  "id": "u7-1-desc-vii",
+                  "text": "Transcriere: Din pseudocod la cod, cu sintaxa corecta.\n\nExemplu: Pseudocod to C: Citeste n -> scanf('%d', &n);",
+                  "children": []
+                },
+                {
+                  "id": "u7-1-ex-vii",
+                  "text": "Exemplu: Cod pentru suma cifrelor in Pascal: readln(n); while n>0 do ...",
+                  "children": []
+                },
+                {
+                  "id": "u7-1-act-vii",
+                  "text": "Activitate: Transcrie 2 algoritmi in cod sursa.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u7-2-vii",
+              "text": "Rularea linie cu linie, testarea",
+              "children": [
+                {
+                  "id": "u7-2-desc-vii",
+                  "text": "Testare: Input variat, output asteptat vs real.\n\nExemplu: Ruleaza linie cu linie pentru a vedea valoarea variabilei.",
+                  "children": []
+                },
+                {
+                  "id": "u7-2-ex-vii",
+                  "text": "Exemplu: Testeaza cu n=123, asteptat suma=6.",
+                  "children": []
+                },
+                {
+                  "id": "u7-2-act-vii",
+                  "text": "Activitate: Testeaza un program cu 3 seturi de date.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u7-3-vii",
+              "text": "Crearea de aplicații elementare interdisciplinare",
+              "children": [
+                {
+                  "id": "u7-3-desc-vii",
+                  "text": "Interdisciplinar: Fizica (viteza = dist/timp), Chimie (concentratie).\n\nExemplu: Program pentru viteza: Citeste d,t; v=d/t; Afiseaza v.",
+                  "children": []
+                },
+                {
+                  "id": "u7-3-ex-vii",
+                  "text": "Exemplu: Calcul concentratie: masa/solutie *100.",
+                  "children": []
+                },
+                {
+                  "id": "u7-3-act-vii",
+                  "text": "Activitate: Creeaza program pentru o formula matematica/fizica.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u7-rec-vii",
+              "text": "Recapitulare Unitate 7",
+              "children": [
+                {
+                  "id": "u7-rec-q-vii",
+                  "text": "Intrebari: Cum testezi cod? (Input/output). Exemplu interdisciplinar? (Viteza in fizica).",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u7-eval-vii",
+              "text": "Evaluare Unitate 7",
+              "children": [
+                {
+                  "id": "u7-eval-ex-vii",
+                  "text": "Exercitiu: Implementeaza si testeaza un algoritm interdisciplinar in cod.",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "unit8-vii",
+          "text": "Unitatea 8: Proiecte, recapitulare si evaluare finala",
+          "children": [
+            {
+              "id": "u8-1-vii",
+              "text": "Proiecte creative",
+              "children": [
+                {
+                  "id": "u8-1-desc-vii",
+                  "text": "Integreaza: Document tehnoredactat cu multimedia si algoritm implementat.",
+                  "children": []
+                },
+                {
+                  "id": "u8-1-ex-vii",
+                  "text": "Exemplu: Proiect 'Ecologie': Referat cu video montaj si program calcul impact.",
+                  "children": []
+                },
+                {
+                  "id": "u8-1-act-vii",
+                  "text": "Activitate: Echipe creeaza proiect integrat cu colaborare online.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u8-2-vii",
+              "text": "Recapitulare generala",
+              "children": [
+                {
+                  "id": "u8-2-q-vii",
+                  "text": "Intrebari cheie: Structura program? (Include, main). Etica colaborativa? (Credit, confidential).",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u8-3-vii",
+              "text": "Evaluare finala",
+              "children": [
+                {
+                  "id": "u8-3-ex-vii",
+                  "text": "Test: 20 intrebari + proiect (document, video, cod, 40 puncte).",
+                  "children": []
+                },
+                {
+                  "id": "u8-3-port-vii",
+                  "text": "Portofoliu: 7 lucrari (referat, clip, cod, colaborativ) cu reflectie.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "resurse-fin-vii",
+              "text": "Resurse aditionale: Audacity.org; Shotcut.org; Dev-Cpp.com; Google Workspace for Education.",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root-viii",
+      "text": "@Informatica si TIC Clasa a VIII-a",
+      "children": [
+        {
+          "id": "intro-viii",
+          "text": "Introducere - Competente Generale",
+          "children": [
+            {
+              "id": "cg1-viii",
+              "text": "1. Utilizarea responsabila si eficienta a tehnicii de calcul si de comunicatii",
+              "children": [
+                {
+                  "id": "cg1-desc-viii",
+                  "text": "Accent pe calcul tabelar avansat, editare web si prelucrare date structurate, cu focus pe eficienta si integrare digitala sigura.",
+                  "children": []
+                },
+                {
+                  "id": "cg1-ex-viii",
+                  "text": "Exemplu: Utilizarea Excel pentru analiza date statistice scolare, cu grafice si formule conditionale.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "cg2-viii",
+              "text": "2. Rezolvarea unor probleme elementare prin construirea unor algoritmi de prelucrare a informatiei",
+              "children": [
+                {
+                  "id": "cg2-desc-viii",
+                  "text": "Dezvolta algoritmi pentru siruri de valori, cu parcurgere, cautare si sortare simpla, implementati in programare.",
+                  "children": []
+                },
+                {
+                  "id": "cg2-ex-viii",
+                  "text": "Exemplu: Algoritm pentru gasirea maximului intr-un sir de 10 numere, cu bucla for.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "cg3-viii",
+              "text": "3. Elaborarea creativa de produse informatice care sa valorifice conexiunile dintre disciplina Informatica si TIC si societate",
+              "children": [
+                {
+                  "id": "cg3-desc-viii",
+                  "text": "Creeaza pagini web si foi de calcul care rezolva probleme reale, promovand aplicatii sociale si educationale.",
+                  "children": []
+                },
+                {
+                  "id": "cg3-ex-viii",
+                  "text": "Exemplu: Site web al clasei cu sectiuni interactive si foaie calcul pentru statistici elevi.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "resurse-viii",
+              "text": "Resurse generale: Programa oficiala - https://www.ise.ro/wp-content/uploads/2017/01/informatica-si-TIC.pdf; Manuale: Editura Aramis, Gama; Medii: Excel, KompoZer, Python.",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "unit1-viii",
+          "text": "Unitatea 1: Calcul tabelar",
+          "children": [
+            {
+              "id": "u1-1-viii",
+              "text": "Elemente de interfaţă ale unei aplicații de calcul tabelar",
+              "children": [
+                {
+                  "id": "u1-1-desc-viii",
+                  "text": "Elemente: Fisa (Sheet1), Celule (A1), Bara formule, Ribon (Home, Insert).\n\nExemplu: In Excel, ribonul Home include formatare si sortare.",
+                  "children": []
+                },
+                {
+                  "id": "u1-1-ex-viii",
+                  "text": "Exemplu: Deschide Excel si identifica bara formule pentru editare.",
+                  "children": []
+                },
+                {
+                  "id": "u1-1-act-viii",
+                  "text": "Activitate: Exploreaza interfata si noteaza 5 tool-uri din ribon.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u1-2-viii",
+              "text": "Structura unui registru de calcul (foaie de calcul, coloană, rând, celulă, adresă de celulă)",
+              "children": [
+                {
+                  "id": "u1-2-desc-viii",
+                  "text": "Foaie: Grid; Coloana: A-Z; Rand: 1-...; Celula: A1; Adresa: A1:B5.\n\nExemplu: Adresa B2 e intersectia coloana B, rand 2.",
+                  "children": []
+                },
+                {
+                  "id": "u1-2-ex-viii",
+                  "text": "Exemplu: Selecteaza interval A1:C3 pentru un tabel mic.",
+                  "children": []
+                },
+                {
+                  "id": "u1-2-act-viii",
+                  "text": "Activitate: Creeaza un tabel 4x4 si eticheteaza adresele.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u1-3-viii",
+              "text": "Operații cu un registru de calcul (deschidere, închidere, salvare, creare)",
+              "children": [
+                {
+                  "id": "u1-3-desc-viii",
+                  "text": "Creare: Blank Workbook; Salvare: .xlsx; Deschidere: File > Open.\n\nExemplu: Salveaza ca 'DateScolare.xlsx'.",
+                  "children": []
+                },
+                {
+                  "id": "u1-3-ex-viii",
+                  "text": "Exemplu: Creeaza si inchide un registru cu date simple.",
+                  "children": []
+                },
+                {
+                  "id": "u1-3-act-viii",
+                  "text": "Activitate: Gestioneaza 2 registre: crea, salveaza, deschide.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u1-4-viii",
+              "text": "Operații cu foi de calcul (accesare, redenumire)",
+              "children": [
+                {
+                  "id": "u1-4-desc-viii",
+                  "text": "Acces: Click tab; Redenumire: Dublu-click tab.\n\nExemplu: Redenumește Sheet1 la 'NoteMatematica'.",
+                  "children": []
+                },
+                {
+                  "id": "u1-4-ex-viii",
+                  "text": "Exemplu: Adauga 2 foi noi si redenumește-le.",
+                  "children": []
+                },
+                {
+                  "id": "u1-4-act-viii",
+                  "text": "Activitate: Creeaza 3 foi tematice si acceseaza-le.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u1-5-viii",
+              "text": "Operaţii de editare (selectare, copiere, mutare, ștergere)",
+              "children": [
+                {
+                  "id": "u1-5-desc-viii",
+                  "text": "Selectare: Drag sau Ctrl+Shift; Copiere: Ctrl+C/V; Mutare: Cut/Paste; Stergere: Delete.\n\nExemplu: Selecteaza A1:A10 si copiaza in B1:B10.",
+                  "children": []
+                },
+                {
+                  "id": "u1-5-ex-viii",
+                  "text": "Exemplu: Muta un rand in alta pozitie.",
+                  "children": []
+                },
+                {
+                  "id": "u1-5-act-viii",
+                  "text": "Activitate: Editeaza un tabel prin selectie, copiere si stergere.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u1-6-viii",
+              "text": "Operații de formatare a rândurilor/coloanelor",
+              "children": [
+                {
+                  "id": "u1-6-desc-viii",
+                  "text": "Formatare: Latime coloana, Inaltime rand, Ascunde/Arata.\n\nExemplu: Redimensioneaza coloana A la 15 caractere.",
+                  "children": []
+                },
+                {
+                  "id": "u1-6-ex-viii",
+                  "text": "Exemplu: Ascunde randul 5 pentru date temporar.",
+                  "children": []
+                },
+                {
+                  "id": "u1-6-act-viii",
+                  "text": "Activitate: Formateaza un tabel cu 5 randuri/coloane.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u1-7-viii",
+              "text": "Operații de formatare a celulelor (aliniere conținut, borduri, culori de umplere, stiluri predefinite)",
+              "children": [
+                {
+                  "id": "u1-7-desc-viii",
+                  "text": "Aliniere: Stanga/centru; Borduri: Grid; Culori: Fill; Stiluri: Conditional Formatting.\n\nExemplu: Aplica borduri groase si umplere galbena pentru header.",
+                  "children": []
+                },
+                {
+                  "id": "u1-7-ex-viii",
+                  "text": "Exemplu: Conditional: Verde daca >5, rosu altfel.",
+                  "children": []
+                },
+                {
+                  "id": "u1-7-act-viii",
+                  "text": "Activitate: Formateaza 10 celule cu aliniere, borduri si culori.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u1-8-viii",
+              "text": "Tipuri de date: numeric, text, dată calendaristică",
+              "children": [
+                {
+                  "id": "u1-8-desc-viii",
+                  "text": "Numeric: 123; Text: 'ABC'; Data: 12/12/2025.\n\nExemplu: In celula A1: =TODAY() pentru data curenta.",
+                  "children": []
+                },
+                {
+                  "id": "u1-8-ex-viii",
+                  "text": "Exemplu: Formateaza coloana date ca DD/MM/YYYY.",
+                  "children": []
+                },
+                {
+                  "id": "u1-8-act-viii",
+                  "text": "Activitate: Introdu 5 exemple de fiecare tip de date.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u1-9-viii",
+              "text": "Sortarea crescătoare/descrescătoare a datelor",
+              "children": [
+                {
+                  "id": "u1-9-desc-viii",
+                  "text": "Sortare: Data > Sort, criteriu coloana.\n\nExemplu: Sorteaza note descrescator in coloana B.",
+                  "children": []
+                },
+                {
+                  "id": "u1-9-ex-viii",
+                  "text": "Exemplu: Multi-criteriu: Nume asc, Note desc.",
+                  "children": []
+                },
+                {
+                  "id": "u1-9-act-viii",
+                  "text": "Activitate: Sorteaza un tabel cu 20 randuri dupa 2 criterii.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u1-10-viii",
+              "text": "Formule de calcul cu operatori aritmetici",
+              "children": [
+                {
+                  "id": "u1-10-desc-viii",
+                  "text": "Formule: =A1+B1; Prioritate: * / inainte + -.\n\nExemplu: = (A1*B1) + C1 pentru calcul complex.",
+                  "children": []
+                },
+                {
+                  "id": "u1-10-ex-viii",
+                  "text": "Exemplu: =A1/12 pentru medie lunara.",
+                  "children": []
+                },
+                {
+                  "id": "u1-10-act-viii",
+                  "text": "Activitate: Creeaza 5 formule aritmetice intr-un tabel.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u1-11-viii",
+              "text": "Funcții specifice (sumă, maxim, minim, medie)",
+              "children": [
+                {
+                  "id": "u1-11-desc-viii",
+                  "text": "SUM(A1:A10); MAX, MIN, AVERAGE.\n\nExemplu: =SUM(B1:B5) pentru total note.",
+                  "children": []
+                },
+                {
+                  "id": "u1-11-ex-viii",
+                  "text": "Exemplu: =AVERAGE(C1:C10) pentru medie clasei.",
+                  "children": []
+                },
+                {
+                  "id": "u1-11-act-viii",
+                  "text": "Activitate: Aplică 4 functii intr-un set de date.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u1-12-viii",
+              "text": "Grafice: tipuri de grafice, serii de date",
+              "children": [
+                {
+                  "id": "u1-12-desc-viii",
+                  "text": "Tipuri: Bar, Line, Pie; Serie: Date sursa pentru axe.\n\nExemplu: Grafic bar cu note pe materii.",
+                  "children": []
+                },
+                {
+                  "id": "u1-12-ex-viii",
+                  "text": "Exemplu: Pie chart pentru cheltuieli lunare.",
+                  "children": []
+                },
+                {
+                  "id": "u1-12-act-viii",
+                  "text": "Activitate: Creeaza 2 grafice dintr-un tabel de date.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u1-rec-viii",
+              "text": "Recapitulare Unitate 1",
+              "children": [
+                {
+                  "id": "u1-rec-q-viii",
+                  "text": "Intrebari: Ce e celula A1? (Intersectie rand1, coloana A). Functie suma? (=SUM(range)).",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u1-eval-viii",
+              "text": "Evaluare Unitate 1",
+              "children": [
+                {
+                  "id": "u1-eval-ex-viii",
+                  "text": "Exercitiu: Creeaza foaie cu date, formule, sortare si grafic pentru analiza statistica.",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "unit2-viii",
+          "text": "Unitatea 2: Pagini web",
+          "children": [
+            {
+              "id": "u2-1-viii",
+              "text": "Elemente de interfaţă ale unui editor de pagini web",
+              "children": [
+                {
+                  "id": "u2-1-desc-viii",
+                  "text": "Editori: KompoZer, Brackets; Interfata: Mod WYSIWYG, Bara tool-uri HTML.\n\nExemplu: In KompoZer, mod Normal pentru editare vizuala.",
+                  "children": []
+                },
+                {
+                  "id": "u2-1-ex-viii",
+                  "text": "Exemplu: Deschide editor si schimba la mod Source pentru HTML.",
+                  "children": []
+                },
+                {
+                  "id": "u2-1-act-viii",
+                  "text": "Activitate: Identifica 5 elemente de interfata in KompoZer.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u2-2-viii",
+              "text": "Instrumente de bază ale editorului de pagini web",
+              "children": [
+                {
+                  "id": "u2-2-desc-viii",
+                  "text": "Instrumente: Inserare text, imagine, link, tabel.\n\nExemplu: Butonul 'Link' pentru hiperlegaturi.",
+                  "children": []
+                },
+                {
+                  "id": "u2-2-ex-viii",
+                  "text": "Exemplu: Insereaza un tabel 2x2 cu continut text.",
+                  "children": []
+                },
+                {
+                  "id": "u2-2-act-viii",
+                  "text": "Activitate: Foloseste 4 instrumente de baza pentru o pagina simpla.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u2-3-viii",
+              "text": "Elemente de structură ale unei pagini web: antet, titlu, corp",
+              "children": [
+                {
+                  "id": "u2-3-desc-viii",
+                  "text": "<head> titlu; <body> continut; <h1> antet.\n\nExemplu: <title>Pagina Mea</title> in head.",
+                  "children": []
+                },
+                {
+                  "id": "u2-3-ex-viii",
+                  "text": "Exemplu: Creeaza structura cu <h1>Salut!</h1> in body.",
+                  "children": []
+                },
+                {
+                  "id": "u2-3-act-viii",
+                  "text": "Activitate: Construiește structura de baza HTML.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u2-4-viii",
+              "text": "Operații de editare a elementelor de conținut (paragraf, imagini, tabele, liste, legături): inserare, ștergere, mutare, copiere",
+              "children": [
+                {
+                  "id": "u2-4-desc-viii",
+                  "text": "Inserare: Butoane dedicate; Mutare: Drag and drop.\n\nExemplu: Inserare <img src='photo.jpg'> si link <a href='site.ro'>.",
+                  "children": []
+                },
+                {
+                  "id": "u2-4-ex-viii",
+                  "text": "Exemplu: Creeaza lista <ul><li>Item1</li></ul>.",
+                  "children": []
+                },
+                {
+                  "id": "u2-4-act-viii",
+                  "text": "Activitate: Editeaza o pagina cu inserare paragraf, imagine si link.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u2-5-viii",
+              "text": "Operații de formatare la nivel de text, paragraf, fundal",
+              "children": [
+                {
+                  "id": "u2-5-desc-viii",
+                  "text": "Text: <b>, <i>; Paragraf: <p align='center'>; Fundal: <body bgcolor='white'>.\n\nExemplu: <p style='color:red'>Text rosu.</p>",
+                  "children": []
+                },
+                {
+                  "id": "u2-5-ex-viii",
+                  "text": "Exemplu: Formateaza paragraf cu aliniere dreapta si font italic.",
+                  "children": []
+                },
+                {
+                  "id": "u2-5-act-viii",
+                  "text": "Activitate: Aplica formatare la 5 elemente pe o pagina.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u2-rec-viii",
+              "text": "Recapitulare Unitate 2",
+              "children": [
+                {
+                  "id": "u2-rec-q-viii",
+                  "text": "Intrebari: Ce e <body>? (Continut vizibil). Cum inserezi link? (<a href>).",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u2-eval-viii",
+              "text": "Evaluare Unitate 2",
+              "children": [
+                {
+                  "id": "u2-eval-ex-viii",
+                  "text": "Exercitiu: Editeaza o pagina web cu structura, continut si formatare tematica.",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "unit3-viii",
+          "text": "Unitatea 3: Șiruri de valori și algoritmi",
+          "children": [
+            {
+              "id": "u3-1-viii",
+              "text": "Șir de valori (noțiuni introductive)",
+              "children": [
+                {
+                  "id": "u3-1-desc-viii",
+                  "text": "Sir: Array [10]; Indexare de la 0 sau 1.\n\nExemplu: In C: int sir[5] = {1,2,3,4,5};",
+                  "children": []
+                },
+                {
+                  "id": "u3-1-ex-viii",
+                  "text": "Exemplu: Declara sir de 10 elemente in Pascal: sir: array[1..10] of integer;",
+                  "children": []
+                },
+                {
+                  "id": "u3-1-act-viii",
+                  "text": "Activitate: Definitie si declarare sir cu 5 valori.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u3-2-viii",
+              "text": "Operații cu șiruri de valori: citire, afișare, parcurgere",
+              "children": [
+                {
+                  "id": "u3-2-desc-viii",
+                  "text": "Citire: Bucla for i=1 to n read sir[i]; Afișare: write sir[i].\n\nExemplu: Parcurgere: for i:=1 to 10 do write(sir[i]);",
+                  "children": []
+                },
+                {
+                  "id": "u3-2-ex-viii",
+                  "text": "Exemplu: Citeste 5 numere si afiseaza-le invers.",
+                  "children": []
+                },
+                {
+                  "id": "u3-2-act-viii",
+                  "text": "Activitate: Scrie cod pentru citire si afisare sir de 7 elemente.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u3-3-viii",
+              "text": "Algoritmi de bază pentru șiruri: numărare, sumă/produs, minim/maxim, verificare proprietăți",
+              "children": [
+                {
+                  "id": "u3-3-desc-viii",
+                  "text": "Numarare: Contor++; Suma: suma += sir[i]; Min/Max: if sir[i]<min then min=sir[i].\n\nExemplu: Produs: produs *= sir[i]; Verifica pare: if sir[i] mod 2=0 then contor++;",
+                  "children": []
+                },
+                {
+                  "id": "u3-3-ex-viii",
+                  "text": "Exemplu: Găsește min in sir si afiseaza pozitia.",
+                  "children": []
+                },
+                {
+                  "id": "u3-3-act-viii",
+                  "text": "Activitate: Implementeaza algoritm suma si max pentru sir de 8 valori.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u3-rec-viii",
+              "text": "Recapitulare Unitate 3",
+              "children": [
+                {
+                  "id": "u3-rec-q-viii",
+                  "text": "Intrebari: Cum declari sir? (array[size]). Ce operatie numarare? (Contor in bucla).",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u3-eval-viii",
+              "text": "Evaluare Unitate 3",
+              "children": [
+                {
+                  "id": "u3-eval-ex-viii",
+                  "text": "Exercitiu: Scrie pseudocod si cod pentru numarare valori pare intr-un sir.",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "unit4-viii",
+          "text": "Unitatea 4: Produse digitale cu calcul tabelar",
+          "children": [
+            {
+              "id": "u4-1-viii",
+              "text": "Realizarea de tabele pentru cheltuieli, situația școlară, grafice",
+              "children": [
+                {
+                  "id": "u4-1-desc-viii",
+                  "text": "Tabele: Coloane Nume, Nota, Medie; Grafice: Line pentru evolutie.\n\nExemplu: Tabel cheltuieli: =SUM pentru total lunar.",
+                  "children": []
+                },
+                {
+                  "id": "u4-1-ex-viii",
+                  "text": "Exemplu: Grafic mediilor pe semestre.",
+                  "children": []
+                },
+                {
+                  "id": "u4-1-act-viii",
+                  "text": "Activitate: Creeaza tabel situatie scolara cu medii.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u4-2-viii",
+              "text": "Utilizarea formulelor pentru calcule specifice disciplinelor",
+              "children": [
+                {
+                  "id": "u4-2-desc-viii",
+                  "text": "Formule: =IF(A1>5,'Promovat','Respins'); =VLOOKUP pentru cautare.\n\nExemplu: Calcul TVA: =B1*0.19.",
+                  "children": []
+                },
+                {
+                  "id": "u4-2-ex-viii",
+                  "text": "Exemplu: Medie ponderata: =SUMPRODUCT(A1:A5,B1:B5)/SUM(B1:B5).",
+                  "children": []
+                },
+                {
+                  "id": "u4-2-act-viii",
+                  "text": "Activitate: Aplică formule IF si SUM in tabel cheltuieli.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u4-rec-viii",
+              "text": "Recapitulare Unitate 4",
+              "children": [
+                {
+                  "id": "u4-rec-q-viii",
+                  "text": "Intrebari: Functie IF? (Conditioanl). Exemplu grafic? (Bar pentru cheltuieli).",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u4-eval-viii",
+              "text": "Evaluare Unitate 4",
+              "children": [
+                {
+                  "id": "u4-eval-ex-viii",
+                  "text": "Exercitiu: Creeaza foaie cu tabele, formule si grafice pentru date reale.",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "unit5-viii",
+          "text": "Unitatea 5: Pagini web și actualizare",
+          "children": [
+            {
+              "id": "u5-1-viii",
+              "text": "Crearea unui site al clasei sau pagini personale",
+              "children": [
+                {
+                  "id": "u5-1-desc-viii",
+                  "text": "Site: Pagini multiple legate cu <a>; Actualizare: Edit si salveaza.\n\nExemplu: Pagina principala cu linkuri la 'Despre noi', 'Proiecte'.",
+                  "children": []
+                },
+                {
+                  "id": "u5-1-ex-viii",
+                  "text": "Exemplu: Pagina personala cu bio, foto si linkuri.",
+                  "children": []
+                },
+                {
+                  "id": "u5-1-act-viii",
+                  "text": "Activitate: Creeaza 2 pagini legate intr-un site simplu.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u5-2-viii",
+              "text": "Realizarea și legarea paginilor într-un proiect comun",
+              "children": [
+                {
+                  "id": "u5-2-desc-viii",
+                  "text": "Legare: <a href='pagina2.html'>; Proiect: Tema comuna.\n\nExemplu: Site clasa cu pagini pentru fiecare materie.",
+                  "children": []
+                },
+                {
+                  "id": "u5-2-ex-viii",
+                  "text": "Exemplu: Link intern: <a href='#sectiune'>Sarire.</a>",
+                  "children": []
+                },
+                {
+                  "id": "u5-2-act-viii",
+                  "text": "Activitate: Leaga 3 pagini intr-un proiect tematic.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u5-rec-viii",
+              "text": "Recapitulare Unitate 5",
+              "children": [
+                {
+                  "id": "u5-rec-q-viii",
+                  "text": "Intrebari: Cum legi pagini? (<a href>). Actualizare site? (Edit HTML).",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u5-eval-viii",
+              "text": "Evaluare Unitate 5",
+              "children": [
+                {
+                  "id": "u5-eval-ex-viii",
+                  "text": "Exercitiu: Creeaza si actualizeaza un site cu 4 pagini legate.",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "unit6-viii",
+          "text": "Unitatea 6: Implementarea algoritmilor în programare",
+          "children": [
+            {
+              "id": "u6-1-viii",
+              "text": "Executarea și testarea programelor pentru prelucrarea șirurilor",
+              "children": [
+                {
+                  "id": "u6-1-desc-viii",
+                  "text": "Executare: Compile si run; Test: Date de test.\n\nExemplu: Testeaza sir {1,3,5} pentru suma=9.",
+                  "children": []
+                },
+                {
+                  "id": "u6-1-ex-viii",
+                  "text": "Exemplu: Ruleaza linie cu linie pentru depanare erori.",
+                  "children": []
+                },
+                {
+                  "id": "u6-1-act-viii",
+                  "text": "Activitate: Testeaza un program sir cu 3 seturi date.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u6-2-viii",
+              "text": "Numărul elevilor cu nota maximă sau temperatura medie",
+              "children": [
+                {
+                  "id": "u6-2-desc-viii",
+                  "text": "Algoritm: Bucla numarare max, medie suma/n.\n\nExemplu: Pentru note: contor if sir[i]=10; Medie temp: suma/n.",
+                  "children": []
+                },
+                {
+                  "id": "u6-2-ex-viii",
+                  "text": "Exemplu: Cod: for i=1 to n if sir[i]=max then cont++;",
+                  "children": []
+                },
+                {
+                  "id": "u6-2-act-viii",
+                  "text": "Activitate: Implementeaza numarare max si medie intr-un sir.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u6-3-viii",
+              "text": "Implementarea aplicațiilor care prelucrează șiruri",
+              "children": [
+                {
+                  "id": "u6-3-desc-viii",
+                  "text": "Aplicații: Sortare bubble simpla, cautare liniara.\n\nExemplu: Cautare: for i=1 to n if sir[i]=x then found.",
+                  "children": []
+                },
+                {
+                  "id": "u6-3-ex-viii",
+                  "text": "Exemplu: Sir sortat: if sir[i]>sir[i+1] swap.",
+                  "children": []
+                },
+                {
+                  "id": "u6-3-act-viii",
+                  "text": "Activitate: Creeaza aplicatie cautare in sir de 15 valori.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u6-rec-viii",
+              "text": "Recapitulare Unitate 6",
+              "children": [
+                {
+                  "id": "u6-rec-q-viii",
+                  "text": "Intrebari: Cum testezi sir? (Date variate). Algoritm medie? (Suma/n).",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u6-eval-viii",
+              "text": "Evaluare Unitate 6",
+              "children": [
+                {
+                  "id": "u6-eval-ex-viii",
+                  "text": "Exercitiu: Implementeaza si testeaza program prelucrare sir (suma, min, cautare).",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "unit7-viii",
+          "text": "Unitatea 7: Proiecte, recapitulare si evaluare finala",
+          "children": [
+            {
+              "id": "u7-1-viii",
+              "text": "Proiecte creative",
+              "children": [
+                {
+                  "id": "u7-1-desc-viii",
+                  "text": "Integreaza: Foaie calcul cu grafice, site web si algoritm siruri.",
+                  "children": []
+                },
+                {
+                  "id": "u7-1-ex-viii",
+                  "text": "Exemplu: Proiect 'Statistici Elevi': Excel cu note, site prezentare, cod analiza sir note.",
+                  "children": []
+                },
+                {
+                  "id": "u7-1-act-viii",
+                  "text": "Activitate: Echipe dezvolta proiect integrat cu date reale.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u7-2-viii",
+              "text": "Recapitulare generala",
+              "children": [
+                {
+                  "id": "u7-2-q-viii",
+                  "text": "Intrebari cheie: Functie MAX? (=MAX(range)). Cum sortezi in Excel? (Data Sort).",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "u7-3-viii",
+              "text": "Evaluare finala",
+              "children": [
+                {
+                  "id": "u7-3-ex-viii",
+                  "text": "Test: 25 intrebari + proiect (tabelar, web, cod, 50 puncte).",
+                  "children": []
+                },
+                {
+                  "id": "u7-3-port-viii",
+                  "text": "Portofoliu: 8 lucrari (foaie, pagina web, program sir) cu analiza.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "resurse-fin-viii",
+              "text": "Resurse aditionale: Office.com tutorials; W3Schools HTML; Python.org beginners.",
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
